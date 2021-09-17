@@ -1,24 +1,1095 @@
-This is free and unencumbered software released into the public domain.
+<!DOCTYPE html>
+<html lang="enâ€>
+<head>
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109690223-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+  gtag('config', 'UA-109690223-1');
+</script>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
 
-For more information, please refer to <https://unlicense.org>
+<meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+<meta name=description content="The Saturday Projectsâ„¢.com site provides information on published youtube videos, social media links, merchandise for sale, and general information. "/>
+<meta name="keywords" content="saturday projects,saturdayprojects,saturdayprojects.com,youtube,how to videos,diy videos,projects,saturday,car projects, home projects, garden projects,">
+<title>Saturday Projects&trade; Est. 2013</title>
+
+
+<style>
+html{font:normal normal 105%/1.7 sans-serif}
+.container{max-width:1120px;margin:0 auto;padding:0 30px;padding:0 1.5rem}
+.grid{margin-left:-3%;max-width:105%}
+.unit{display:inline-block;*display:inline;*zoom:1;vertical-align:top;margin-left:3%;margin-right:-.25em;overflow:hidden;*overflow:visible}
+#menu li{float:right;margin-right:1.0em;list-style:none}
+#menu a{text-decoration:none;color:#696969;font-size:100%}
+#menu a:visited{text-decoration:none;color:#696969}
+.span-grid{width:97%}
+p,ul,hr,form,h1,.alpha,h2,.beta{margin-bottom:30px;margin-bottom:1.5rem}
+img{height:auto;}
+.head{height:150px;}
+.intro {float:right;margin:1.0em;max-width:60%;}
+@media screen and (max-width:650px){
+img{height:auto;color:#c00}
+.intro {float:right;margin:1.0em;max-width:100%;}
+.grid{margin-left:0;max-width:none}
+.unit{width:auto;margin-left:0;display:block}
+.head{height:100px}
+html{font-size:90%:line-height:normal}
+#menu{display:none;}
+img{height:auto;border:0;}
+.intro {display: block;margin-left:auto;margin-right:auto;}
+</style>
+
+
+</head>
+<body id=top>
+<div class="container">
+<div class="grid">
+<div class="unit span-grid">
+<div class="head">
+<br>
+<a style="float:left;" href="/"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QAqRXhpZgAASUkqAAgAAAABADEBAgAHAAAAGgAAAAAAAABHb29nbGUAAP/bAIQAAwICCggICA0ICQ4LCg8ICggNCAgIDQkICggIDQsICAsLCAoLCAgJCwgKCggIDggICAgLDgoLCAsNFggNCggLCAEDBAQCAgIJAgIJCAICAggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgI/8AAEQgAZABkAwERAAIRAQMRAf/EABwAAQACAgMBAAAAAAAAAAAAAAAGBwUIAwQJAv/EAD0QAAICAQMCBAMGAwMNAAAAAAIDAQQFABESBhMHCBQhFSIjCRYxQXWyMjQ2FyRhJSYzNTdCQ1FxdrO0xf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDyq0DQNA0DQNA0DQNA0DQNA0DQNA0DQNA0DQNA0DQNA0DQNBbHgp5U811EDjw2OOytZQs3dxSEwyY5cIdYYhRnAyJSsDIhEgkoiDCSCJeJ3hVewtw62UqnWsjEFKmxHuB/wmBjJLYBbTEMUZjMwUb7wUQEU0GVt9J2F11POuwa7CIF2TSY12mEyJit0jCzkJEokQKZiYKJ22nQYrQNA0E8veCF1eFTlDWMUGXpxwO7oyc2oBjZGUxPciOKmTzkYj2iPzjcIHoGgaBoGg38y2CsXvCHHfC4Jo1s1ZbkVVi3IFCVhosesZ5GCRbSaUTBcQlbpiAURrDE5fO1PEPJdC49TXBbXi/h9+/ZUJNZ6NMWmytvcYb52TbkTfx+ozmUTyONBx9XeVHp3IYvqVvTNi+NvE/M8MtKCrW66zcLmJlCxYBSKHGPPhvxUJCEsI1haXj993P7NcB2vifpfUZL4d3PSep+I87n8/x+l6bv9z+T+r2uH+9voNdvFTypUqL+hQU58xlaGNtWZYxcypl8kC6K/FIQAjDS4w6HzGw7yfvuFq9J/Z5Y231d1RiouWFopYwLVe0xquffYqsyJtF2IA0gbykhSFcuAxHKJ3mQ6Hh55VulMi/M2amRv2MNjcKq5YMFgm9avmdozFMOSoAT2K4CKzUBSbB3NfEykMp5gaGP/swxfwM7DKZ9XbrXkAXF9ZzWugam+nmUMKTGWAaYGJUaomBODjQZg/Ih0yvMIwLb+Q+PMpd/14AicSFvsHZhUokYsyHAJdw7kTMcA7gEUwIa++JXlXrUekE5EGtPIL6gs4K8iGAykk0eokZARSDlzIrrfM5xRPdjaB5hEBivN55eanTg4BaWOK5YwdfJ3F2DAlKfZ+WAR21KkRFi7EcWG4toXO8b/MGvOgaDbDwC6yzvRNHG5qqayxl2wysVA3SQWoqm1TIanj9EwlTZVZWUmPtvzWbVsDYbxI8qKsl1X0rZ6ZazEoyuMPLEVSew+iK1C22SuywIUVhNhVbspLtw4mz8yymBDMeDuewJ4HxEV05Ws8V4NkOy+RuS5+ROQuwLPTxEKUO4m2GD2zOG/OKpCIkKN8bv9lfRf6rkv/Pe0E38w3834Rfo+C/fU0F0qLbrvxN2/H7qnO8fj/J09BrH5Df6V8Sf0Sv+y/oPrI4tj/CvBrrxMuPrbtLESgZlzEXAXEFMjAzJSMcpIYj8Z20GyHg70vhsJ11i6Fg7uY6k4zNjOX7xjXqmdBr4WlM82WYmvxCAsEyAF0TByS5UAVt0LgjzmE8R8WmPrD1Wi+si94/vd6KzpiI991KqlM/hvyGPb3mAor7Uvqv1HWV9cbdusipQXt+QLSDzif8AEWucPtt7RH576DUvQNBtn4XeZrDWOmUYfqmncJFa4dynewhpi0HfJjHLYu1MJmObW/PsyCExjislCxgTwvtIUI6lwNmhjzXhsfj5xCqLGiV0qbQFLWSyZMO6EBXIVk04LsxBGMuMwDq4fzW9L4nGdT1MFjsgMZGg1EPvtQwlNMXLQgVrZsurV7pFDSZasMk5g5nthJBBqnmTw9zomtiMrWuDcpuuWaVrHkiazH2e+1UW+9MMBUNsSLAQszkFgQEEkYaCe1vOT07ap9KsyuNvHk8TVr1FBVcgcZYin2hQx5mUWi7fZGxCFAiJZJqMmBMEIcY+fHH/AHk6vv8ApbHZyWGLGoVxV3lOlCK8E6O7wgOSSLdZsLjI+2+8QFZ+TLzM0MEvO1czVc+hkKI1GzRIItrlcNEZCGmpc7i9vvLI2KFzscco0Eo8TvNzio6dx2NwFGyj0fUKcwl+RNbietKm7nZlJBAvOw6Y7KFwqEAGxQUzEBbDPPh0t95q2djE5GcnKxW9ZWEehSUV5pk9C4Pu2XdqAqQLjqJ7ZE/j3gGDDm+zR6ysu6yyb14+weMyJ3pl5IL0qGA6cjXN9iBNMEqBZV4Q2Ilzwj3+XQaP+YLrGMhnszZE+YOylx4Hy5RKWOMk7T7/ACiuQEYj2gYGI2iI0EA0DQTLwm8Hr2duDWxVebFmVm2Ewxaplao3OebjUv5Y/LnvP5b6CceLPkv6gwdWbGUxTE1oIQKwLFWFrk54h3Crsf2oMpEINvAZMgCJ5EMSFK6BoLE8LPAW7ma+VdSECXSpHkLEsbC5GssTYUgM+7C4rP5B9/wj840Fd6BoGgzGb6Ns1l1zs1mpW4O6lr0Gpb1e080mYiLQ2IJ5rko+Yf8AnG4S7pfzG5ejjm0qeTeikZERVkOlYzLNu5EGOzBFu2xrAxEokoKCgi3C9vKf5VcZ1BTSVk7SH88hLHKtJ9N2sY7DScig6ksCTq5Vw7lZZEOSs/cWEoQ1r8VOlwo5TJV1SUrTfs1QJkxLJXXaagk5EQGSkRiZkQGN99oGPaAi+g3T+yH/AKyR+n3P2joLA8jHWtq2rr9F6y12PjAXzMLDzYhRx3QCRIymEzKu97hIzMBE/wDDHiGFteUbpbFYHAZLN5G2M3MZLoxypWw33iBbIlUgkDTVq8phkMJhETa0c1cZGwH3ifKp0vi56do9QMyDMvk6lOxzoEldTH/EWSmtEwcHzkWcksLlb37RsEVQYCYYzw/8phUH+ItRmTtqnH4d7x+G2/TJvp7LrFdd5PA+8pqu33K0EMRJuCCKJgtBgugfADp3FdM4vKdUzeed99hSKWLlS4SiuZLlpy2Qlh/T7g/WEZFqxkS4mYhJ6v2cNeetmYwrzPhcYr47FqOPrix3yr4T9Psw6HlIc4SQyqO5xgi7Yhhuq/ATpfI4Czl8HORr1qWRp1b1K6SDsNp2WqSbaxDLFg8ofEj3WmvkBRIjGxmFu+efE4Wz070UpEX/AFDMSCcTzOtCe22aQf5TmB5c+3K9ppbDz5b/AC7aDGO8jHTTcrewNZ2QjOV8f6ycmyU/Dm2OwqxCvTxEthMw9ZbRAHGxDzPjEtDzvo9U2FBwVYYC+Ul21uIQ5ESWFPAZgdyOtVZM7bySK5fipciHRvXjaZm05MyMjJhlJGZnPIyI53IiKZkpIpmZmZmd9Bw6DdP7If8ArJH6fc/aOgifjT5+MrdqXcepFLH1WOJb4w1D0Z2gApGQactcXFm0c4XISQ7rKSWTAMJz58Z/zV8Nv0Wx+yhoJ35wf638Pv0rpz/3n6C2+oP9e+Mf/bX/AM8tBXXWXV+Gp9AdDznsSzIrIL0KBGQOlKjhsyZTK/8ASc44xEFPy7Tt/FOgtPwj8QLGS68tstYtuMIeg2pCpbaLWkgLC5W2DGBjifKQiJjfcCmfx9g80ej+ns0fT+XbTJnwUHVhvCFoARLjYuKfcqkwXOmGynYlpZAzxmeMDMwGzHngqNZgfDEa8FLiwkAuFzsyXENAVQExtMFJyMRMTE77aC3Zg+tStVbi24TrmlQ3iwgyQGSqiCz7b5VIyuWQxe6+RSEGtq5eqH10B5aaBoGgv7yP+Yiv0vnl3biWOUNZ6JXW493k6IEZ+oSw2jb3+bf/AK6Cjs5fhr3HEbQTTZET+MQZSURP5bxvoL48x/mQr5rDdKVEJYtmOx7ajmO4dtpsGsMEriRFxjsFv3BCfcf8dBdeA86/T10en7PUOKuNy+Nr166n0XqirbGjMMqFZhhrYPBu7pBYlHMmb9wD7QhPvLx1fdzNPxOy1yoaE3On7cqbKyitPbTaSCVWCEAfNcFikiD35j80BJQOgpTww81OCsdO47F9V421YClZa+rZxtgRYS7Bm5qXQ1iZENz4brMplcLgezK+Rhlk/aRF98zyxUImkVH4NOP7n1oxXsXs3aA73diLHGR4bTKN4jZ0BgvFvzS4RXTtzE9K42yhNu4u1bs5Vwm2BrGtyEoFTHRIwa1/UYcSICUTDibzUH31t5uMXkenMEl9S0rN4tK00rdc1Tji7RokSeDCls7rQE9sEz9WP4uJTEBZtr7QvBqyN3M0sTbHqJ+OGnK3WVFhVP4LQTxkZ9WciC1xwlaxMQgf7uTDdAeeegaBoGgaBoGgm0eN+TjGxQjIPjHRJT6AbBDV+cpcUSqJgSGWTLe2W49yee3L30EJ0DQNA0DQNA0DQNA0DQNA0DQNA0DQNA0DQNA0DQNA0DQNA0DQNA0DQNB//9k=" alt="SaturdayProjects.com" width="100" height="100" /></a>
+<div id="menu">
+
+</div>
+</div>
+<div class="unit span-grid">
+
+<!--UPCOMING VIDEOS (dead links):
+<a href="https://youtu.be/xxx" target="_blank"><b>1000</b></a>
+<a href="https://youtu.be/xxx" target="_blank">999</a>
+<a href="https://youtu.be/xxx" target="_blank">998</a>
+<a href="https://youtu.be/xxx" target="_blank">997</a>
+<a href="https://youtu.be/xxx" target="_blank">996</a>
+<a href="https://youtu.be/xxx" target="_blank">995</a>
+<a href="https://youtu.be/xxx" target="_blank">994</a>
+<a href="https://youtu.be/xxx" target="_blank">993</a>
+<a href="https://youtu.be/xxx" target="_blank">992</a>
+<a href="https://youtu.be/xxx" target="_blank">991</a>
+<a href="https://youtu.be/xxx" target="_blank">990</a>
+<a href="https://youtu.be/xxx" target="_blank">989</a>
+<a href="https://youtu.be/xxx" target="_blank">988</a>
+<a href="https://youtu.be/xxx" target="_blank">987</a>
+<a href="https://youtu.be/xxx" target="_blank">986</a>
+<a href="https://youtu.be/xxx" target="_blank">985</a>
+<a href="https://youtu.be/xxx" target="_blank">984</a>
+<a href="https://youtu.be/xxx" target="_blank">983</a>
+<a href="https://youtu.be/xxx" target="_blank">982</a>
+<a href="https://youtu.be/xxx" target="_blank">981</a>
+<a href="https://youtu.be/xxx" target="_blank">980</a>
+<a href="https://youtu.be/xxx" target="_blank">979</a>
+<a href="https://youtu.be/xxx" target="_blank">978</a>
+<a href="https://youtu.be/xxx" target="_blank">977</a>
+<a href="https://youtu.be/xxx" target="_blank">976</a>
+<a href="https://youtu.be/xxx" target="_blank">975</a>
+<a href="https://youtu.be/xxx" target="_blank">974</a>
+<a href="https://youtu.be/xxx" target="_blank">973</a>
+<a href="https://youtu.be/xxx" target="_blank">972</a>
+<a href="https://youtu.be/xxx" target="_blank">971</a>
+<a href="https://youtu.be/xxx" target="_blank">970</a>
+<a href="https://youtu.be/xxx" target="_blank">969</a>
+<a href="https://youtu.be/xxx" target="_blank">968</a>
+<a href="https://youtu.be/xxx" target="_blank">967</a>
+<a href="https://youtu.be/xxx" target="_blank">966</a>
+<a href="https://youtu.be/xxx" target="_blank">965</a>
+<a href="https://youtu.be/xxx" target="_blank">964</a>
+<a href="https://youtu.be/xxx" target="_blank">963</a>
+<a href="https://youtu.be/xxx" target="_blank">962</a>
+<a href="https://youtu.be/xxx" target="_blank">961</a>
+<a href="https://youtu.be/xxx" target="_blank">960</a>
+<a href="https://youtu.be/xxx" target="_blank">959</a>
+<a href="https://youtu.be/xxx" target="_blank">958</a>
+<a href="https://youtu.be/xxx" target="_blank">957</a>
+<a href="https://youtu.be/xxx" target="_blank">956</a>
+<a href="https://youtu.be/xxx" target="_blank">955</a>
+<a href="https://youtu.be/xxx" target="_blank">954</a>
+<a href="https://youtu.be/xxx" target="_blank">953</a>
+<a href="https://youtu.be/xxx" target="_blank">952</a>
+<a href="https://youtu.be/xxx" target="_blank">951</a>
+<a href="https://youtu.be/xxx" target="_blank">950</a>
+<a href="https://youtu.be/xxx" target="_blank">949</a>
+<a href="https://youtu.be/xxx" target="_blank">948</a>
+<a href="https://youtu.be/xxx" target="_blank">947</a>
+<a href="https://youtu.be/xxx" target="_blank">946</a>
+<a href="https://youtu.be/xxx" target="_blank">945</a>
+<a href="https://youtu.be/xxx" target="_blank">944</a>
+<a href="https://youtu.be/xxx" target="_blank">943</a>
+<a href="https://youtu.be/xxx" target="_blank">942</a>
+<a href="https://youtu.be/xxx" target="_blank">941</a>
+<a href="https://youtu.be/xxx" target="_blank">940</a>
+<a href="https://youtu.be/xxx" target="_blank">939</a>
+<a href="https://youtu.be/xxx" target="_blank">938</a>
+<a href="https://youtu.be/xxx" target="_blank">937</a>
+<a href="https://youtu.be/xxx" target="_blank">936</a>
+<a href="https://youtu.be/xxx" target="_blank">935</a>
+<a href="https://youtu.be/xxx" target="_blank">934</a>
+<a href="https://youtu.be/xxx" target="_blank">933</a>
+<a href="https://youtu.be/xxx" target="_blank">932</a>
+<a href="https://youtu.be/xxx" target="_blank">931</a>
+<a href="https://youtu.be/xxx" target="_blank">930</a>
+<a href="https://youtu.be/xxx" target="_blank">929</a>
+<a href="https://youtu.be/xxx" target="_blank">928</a>
+<a href="https://youtu.be/xxx" target="_blank">927</a>
+<a href="https://youtu.be/xxx" target="_blank">926</a>
+<a href="https://youtu.be/xxx" target="_blank">925</a>
+<a href="https://youtu.be/xxx" target="_blank">924</a>
+<a href="https://youtu.be/xxx" target="_blank">923</a>
+<a href="https://youtu.be/xxx" target="_blank">922</a>
+<a href="https://youtu.be/xxx" target="_blank">921</a>
+<a href="https://youtu.be/xxx" target="_blank">920</a>
+<a href="https://youtu.be/xxx" target="_blank">919</a>
+<a href="https://youtu.be/xxx" target="_blank">918</a>
+<a href="https://youtu.be/xxx" target="_blank">917</a>
+<a href="https://youtu.be/xxx" target="_blank">916</a>
+<a href="https://youtu.be/xxx" target="_blank">915</a>
+<a href="https://youtu.be/xxx" target="_blank">914</a>
+<a href="https://youtu.be/xxx" target="_blank">913</a>
+<a href="https://youtu.be/xxx" target="_blank">912</a>
+<a href="https://youtu.be/xxx" target="_blank">911</a>
+<a href="https://youtu.be/xxx" target="_blank">910</a>
+<a href="https://youtu.be/xxx" target="_blank">909</a>
+<a href="https://youtu.be/xxx" target="_blank">908</a>
+<a href="https://youtu.be/xxx" target="_blank">907</a>
+<a href="https://youtu.be/xxx" target="_blank">906</a>
+<a href="https://youtu.be/xxx" target="_blank">905</a>
+<a href="https://youtu.be/xxx" target="_blank">904</a>
+<a href="https://youtu.be/xxx" target="_blank">903</a>
+<a href="https://youtu.be/xxx" target="_blank">902</a>
+<a href="https://youtu.be/xxx" target="_blank">901</a>
+<a href="https://youtu.be/xxx" target="_blank"><b>900</b></a>
+<a href="https://youtu.be/xxx" target="_blank">899</a>
+<a href="https://youtu.be/xxx" target="_blank">898</a>
+<a href="https://youtu.be/xxx" target="_blank">897</a>
+<a href="https://youtu.be/xxx" target="_blank">896</a>
+<a href="https://youtu.be/xxx" target="_blank">895</a>
+<a href="https://youtu.be/xxx" target="_blank">894</a>
+<a href="https://youtu.be/xxx" target="_blank">893</a>
+<a href="https://youtu.be/xxx" target="_blank">892</a>
+<a href="https://youtu.be/xxx" target="_blank">891</a>
+<a href="https://youtu.be/xxx" target="_blank">890</a>
+<a href="https://youtu.be/xxx" target="_blank">889</a>
+<a href="https://youtu.be/xxx" target="_blank">888</a>
+<a href="https://youtu.be/xxx" target="_blank">887</a>
+<a href="https://youtu.be/xxx" target="_blank">886</a>
+<a href="https://youtu.be/xxx" target="_blank">885</a>
+<a href="https://youtu.be/xxx" target="_blank">884</a>
+<a href="https://youtu.be/xxx" target="_blank">883</a>
+<a href="https://youtu.be/xxx" target="_blank">882</a>
+<a href="https://youtu.be/xxx" target="_blank">881</a>
+<a href="https://youtu.be/xxx" target="_blank">880</a>
+<a href="https://youtu.be/xxx" target="_blank">879</a>
+<a href="https://youtu.be/xxx" target="_blank">878</a>
+<a href="https://youtu.be/xxx" target="_blank">877</a>
+<a href="https://youtu.be/xxx" target="_blank">876</a>
+<a href="https://youtu.be/xxx" target="_blank">875</a>
+<a href="https://youtu.be/xxx" target="_blank">874</a>
+<a href="https://youtu.be/xxx" target="_blank">873</a>
+<a href="https://youtu.be/xxx" target="_blank">872</a>
+<a href="https://youtu.be/xxx" target="_blank">871</a>
+<a href="https://youtu.be/xxx" target="_blank">870</a>
+<a href="https://youtu.be/xxx" target="_blank">869</a>
+<a href="https://youtu.be/xxx" target="_blank">868</a>
+<a href="https://youtu.be/xxx" target="_blank">867</a>
+<a href="https://youtu.be/xxx" target="_blank">866</a>
+<a href="https://youtu.be/xxx" target="_blank">865</a>
+<a href="https://youtu.be/xxx" target="_blank">864</a>
+<a href="https://youtu.be/xxx" target="_blank">863</a>
+<a href="https://youtu.be/xxx" target="_blank">862</a>
+<a href="https://youtu.be/xxx" target="_blank">861</a>
+<a href="https://youtu.be/xxx" target="_blank">860</a>
+<a href="https://youtu.be/xxx" target="_blank">859</a>
+<a href="https://youtu.be/xxx" target="_blank">858</a>
+<a href="https://youtu.be/xxx" target="_blank">857</a>
+<a href="https://youtu.be/xxx" target="_blank">856</a>
+<a href="https://youtu.be/xxx" target="_blank">855</a>
+<a href="https://youtu.be/xxx" target="_blank">854</a>
+<a href="https://youtu.be/xxx" target="_blank">853</a>
+<a href="https://youtu.be/xxx" target="_blank">852</a>
+<a href="https://youtu.be/xxx" target="_blank">851</a>
+<a href="https://youtu.be/xxx" target="_blank">850</a>
+<a href="https://youtu.be/xxx" target="_blank">849</a>
+<a href="https://youtu.be/xxx" target="_blank">848</a>
+<a href="https://youtu.be/xxx" target="_blank">847</a>
+<a href="https://youtu.be/xxx" target="_blank">846</a>
+<a href="https://youtu.be/xxx" target="_blank">845</a>
+<a href="https://youtu.be/xxx" target="_blank">844</a>
+<a href="https://youtu.be/xxx" target="_blank">843</a>
+<a href="https://youtu.be/xxx" target="_blank">842</a>
+<a href="https://youtu.be/xxx" target="_blank">841</a>
+<a href="https://youtu.be/xxx" target="_blank">840</a>
+<a href="https://youtu.be/xxx" target="_blank">839</a>
+<a href="https://youtu.be/xxx" target="_blank">838</a>
+<a href="https://youtu.be/xxx" target="_blank">837</a>
+<a href="https://youtu.be/xxx" target="_blank">836</a>
+<a href="https://youtu.be/xxx" target="_blank">835</a>
+<a href="https://youtu.be/xxx" target="_blank">834</a>
+<a href="https://youtu.be/xxx" target="_blank">833</a>
+<a href="https://youtu.be/xxx" target="_blank">832</a>
+<a href="https://youtu.be/xxx" target="_blank">831</a>
+<a href="https://youtu.be/xxx" target="_blank">830</a>
+<a href="https://youtu.be/xxx" target="_blank">829</a>
+<a href="https://youtu.be/xxx" target="_blank">828</a>
+<a href="https://youtu.be/xxx" target="_blank">827</a>
+<a href="https://youtu.be/xxx" target="_blank">826</a>
+<a href="https://youtu.be/xxx" target="_blank">825</a>
+<a href="https://youtu.be/xxx" target="_blank">824</a>
+<a href="https://youtu.be/xxx" target="_blank">823</a>
+<a href="https://youtu.be/xxx" target="_blank">822</a>
+<a href="https://youtu.be/xxx" target="_blank">821</a>
+<a href="https://youtu.be/xxx" target="_blank">820</a>
+<a href="https://youtu.be/xxx" target="_blank">819</a>
+<a href="https://youtu.be/xxx" target="_blank">818</a>
+<a href="https://youtu.be/xxx" target="_blank">817</a>
+<a href="https://youtu.be/xxx" target="_blank">816</a>
+<a href="https://youtu.be/xxx" target="_blank">815</a>
+<a href="https://youtu.be/xxx" target="_blank">814</a>
+<a href="https://youtu.be/xxx" target="_blank">813</a>
+<a href="https://youtu.be/xxx" target="_blank">812</a>
+<a href="https://youtu.be/xxx" target="_blank">811</a>
+<a href="https://youtu.be/xxx" target="_blank">810</a>
+<a href="https://youtu.be/xxx" target="_blank">809</a>
+<a href="https://youtu.be/xxx" target="_blank">808</a>
+<a href="https://youtu.be/xxx" target="_blank">807</a>
+<a href="https://youtu.be/xxx" target="_blank">806</a>
+<a href="https://youtu.be/xxx" target="_blank">805</a>
+<a href="https://youtu.be/xxx" target="_blank">804</a>
+<a href="https://youtu.be/xxx" target="_blank">803</a>
+<a href="https://youtu.be/xxx" target="_blank">802</a>
+<a href="https://youtu.be/xxx" target="_blank">801</a>
+<a href="https://youtu.be/xxx" target="_blank"><b>800</b></a>
+<a href="https://youtu.be/xxx" target="_blank">799</a>
+<a href="https://youtu.be/xxx" target="_blank">798</a>
+<a href="https://youtu.be/xxx" target="_blank">797</a>
+<a href="https://youtu.be/xxx" target="_blank">796</a>
+<a href="https://youtu.be/xxx" target="_blank">795</a>
+<a href="https://youtu.be/xxx" target="_blank">794</a>
+<a href="https://youtu.be/xxx" target="_blank">793</a>
+<a href="https://youtu.be/xxx" target="_blank">792</a>
+<a href="https://youtu.be/xxx" target="_blank">791</a>
+<a href="https://youtu.be/xxx" target="_blank">790</a>
+<a href="https://youtu.be/xxx" target="_blank">789</a>
+<a href="https://youtu.be/xxx" target="_blank">788</a>
+<a href="https://youtu.be/xxx" target="_blank">787</a>
+<a href="https://youtu.be/xxx" target="_blank">786</a>
+<a href="https://youtu.be/xxx" target="_blank">785</a>
+<a href="https://youtu.be/xxx" target="_blank">784</a>
+<a href="https://youtu.be/xxx" target="_blank">783</a>
+<a href="https://youtu.be/xxx" target="_blank">782</a>
+<a href="https://youtu.be/xxx" target="_blank">781</a>
+<a href="https://youtu.be/xxx" target="_blank">780</a>
+<a href="https://youtu.be/xxx" target="_blank">779</a>
+<a href="https://youtu.be/xxx" target="_blank">778</a>
+<a href="https://youtu.be/xxx" target="_blank">777</a>
+<a href="https://youtu.be/xxx" target="_blank">776</a>
+<a href="https://youtu.be/xxx" target="_blank">775</a>
+<a href="https://youtu.be/xxx" target="_blank">774</a>
+<a href="https://youtu.be/xxx" target="_blank">773</a>
+<a href="https://youtu.be/xxx" target="_blank">772</a>
+<a href="https://youtu.be/xxx" target="_blank">771</a>
+<a href="https://youtu.be/xxx" target="_blank">770</a>
+<a href="https://youtu.be/xxx" target="_blank">769</a>
+<a href="https://youtu.be/xxx" target="_blank">768</a>
+<a href="https://youtu.be/xxx" target="_blank">767</a>
+<a href="https://youtu.be/xxx" target="_blank">766</a>
+<a href="https://youtu.be/xxx" target="_blank">765</a>
+<a href="https://youtu.be/xxx" target="_blank">764</a>
+<a href="https://youtu.be/xxx" target="_blank">763</a>
+<a href="https://youtu.be/xxx" target="_blank">762</a>
+<a href="https://youtu.be/xxx" target="_blank">761</a>
+<a href="https://youtu.be/xxx" target="_blank">760</a>
+<a href="https://youtu.be/xxx" target="_blank">759</a>
+<a href="https://youtu.be/xxx" target="_blank">758</a>
+<a href="https://youtu.be/xxx" target="_blank">757</a>
+<a href="https://youtu.be/xxx" target="_blank">756</a>
+<a href="https://youtu.be/xxx" target="_blank">755</a>
+<a href="https://youtu.be/xxx" target="_blank">754</a>
+<a href="https://youtu.be/xxx" target="_blank">753</a>
+<a href="https://youtu.be/xxx" target="_blank">752</a>
+<a href="https://youtu.be/xxx" target="_blank">751</a>
+<a href="https://youtu.be/xxx" target="_blank">750</a>
+<a href="https://youtu.be/xxx" target="_blank">749</a>
+<a href="https://youtu.be/xxx" target="_blank">748</a>
+<a href="https://youtu.be/xxx" target="_blank">747</a>
+<a href="https://youtu.be/xxx" target="_blank">746</a>
+<a href="https://youtu.be/xxx" target="_blank">745</a>
+<a href="https://youtu.be/xxx" target="_blank">744</a>
+<a href="https://youtu.be/xxx" target="_blank">743</a>
+<a href="https://youtu.be/xxx" target="_blank">742</a>
+<a href="https://youtu.be/xxx" target="_blank">741</a>
+<a href="https://youtu.be/xxx" target="_blank">740</a>
+<a href="https://youtu.be/xxx" target="_blank">739</a>
+<a href="https://youtu.be/xxx" target="_blank">738</a>
+<a href="https://youtu.be/xxx" target="_blank">737</a>
+<a href="https://youtu.be/xxx" target="_blank">736</a>
+<a href="https://youtu.be/xxx" target="_blank">735</a>
+<a href="https://youtu.be/xxx" target="_blank">734</a>
+<a href="https://youtu.be/xxx" target="_blank">733</a>
+<a href="https://youtu.be/xxx" target="_blank">732</a>
+<a href="https://youtu.be/xxx" target="_blank">731</a>
+<a href="https://youtu.be/xxx" target="_blank">730</a>
+<a href="https://youtu.be/xxx" target="_blank">729</a>
+<a href="https://youtu.be/xxx" target="_blank">728</a>
+<a href="https://youtu.be/xxx" target="_blank">727</a>
+<a href="https://youtu.be/xxx" target="_blank">726</a>
+<a href="https://youtu.be/xxx" target="_blank">725</a>
+<a href="https://youtu.be/xxx" target="_blank">724</a>
+<a href="https://youtu.be/xxx" target="_blank">723</a>
+<a href="https://youtu.be/xxx" target="_blank">722</a>
+<a href="https://youtu.be/xxx" target="_blank">721</a>
+<a href="https://youtu.be/xxx" target="_blank">720</a>
+<a href="https://youtu.be/xxx" target="_blank">719</a>
+<a href="https://youtu.be/xxx" target="_blank">718</a>
+<a href="https://youtu.be/xxx" target="_blank">717</a>
+<a href="https://youtu.be/xxx" target="_blank">716</a>
+<a href="https://youtu.be/xxx" target="_blank">715</a>
+<a href="https://youtu.be/xxx" target="_blank">714</a>
+<a href="https://youtu.be/xxx" target="_blank">713</a>
+<a href="https://youtu.be/xxx" target="_blank">712</a>
+<a href="https://youtu.be/xxx" target="_blank">711</a>
+<a href="https://youtu.be/xxx" target="_blank">710</a>
+<a href="https://youtu.be/xxx" target="_blank">709</a>
+<a href="https://youtu.be/xxx" target="_blank">708</a>
+<a href="https://youtu.be/xxx" target="_blank">707</a>
+<a href="https://youtu.be/xxx" target="_blank">706</a>
+<a href="https://youtu.be/xxx" target="_blank">705</a>
+<a href="https://youtu.be/xxx" target="_blank">704</a>
+<a href="https://youtu.be/xxx" target="_blank">703</a>
+<a href="https://youtu.be/xxx" target="_blank">702</a>
+<a href="https://youtu.be/xxx" target="_blank">701</a>
+<a href="https://youtu.be/xxx" target="_blank"><b>700</b></a>
+<a href="https://youtu.be/xxx" target="_blank">699</a>
+<a href="https://youtu.be/xxx" target="_blank">698</a>
+<a href="https://youtu.be/xxx" target="_blank">697</a>
+<a href="https://youtu.be/xxx" target="_blank">696</a>
+<a href="https://youtu.be/xxx" target="_blank">695</a>
+<a href="https://youtu.be/xxx" target="_blank">694</a>
+<a href="https://youtu.be/xxx" target="_blank">693</a>
+<a href="https://youtu.be/xxx" target="_blank">692</a>
+<a href="https://youtu.be/xxx" target="_blank">691</a>
+<a href="https://youtu.be/xxx" target="_blank">690</a>
+<a href="https://youtu.be/xxx" target="_blank">689</a>
+<a href="https://youtu.be/xxx" target="_blank">688</a>
+<a href="https://youtu.be/xxx" target="_blank">687</a>
+<a href="https://youtu.be/xxx" target="_blank">686</a>
+<a href="https://youtu.be/xxx" target="_blank">685</a>
+<a href="https://youtu.be/xxx" target="_blank">684</a>
+<a href="https://youtu.be/xxx" target="_blank">683</a>
+<a href="https://youtu.be/xxx" target="_blank">682</a>
+<a href="https://youtu.be/xxx" target="_blank">681</a>
+<a href="https://youtu.be/xxx" target="_blank">680</a>
+<a href="https://youtu.be/xxx" target="_blank">679</a>
+<a href="https://youtu.be/xxx" target="_blank">678</a>
+<a href="https://youtu.be/xxx" target="_blank">677</a>
+<a href="https://youtu.be/xxx" target="_blank">676</a>
+<a href="https://youtu.be/xxx" target="_blank">675</a>
+<a href="https://youtu.be/xxx" target="_blank">674</a>
+<a href="https://youtu.be/xxx" target="_blank">673</a>
+<a href="https://youtu.be/xxx" target="_blank">672</a>
+<a href="https://youtu.be/xxx" target="_blank">671</a>
+<a href="https://youtu.be/xxx" target="_blank">670</a>
+<a href="https://youtu.be/xxx" target="_blank">669</a>
+<a href="https://youtu.be/xxx" target="_blank">668</a>
+<a href="https://youtu.be/xxx" target="_blank">667</a>
+<a href="https://youtu.be/xxx" target="_blank">666</a>
+<a href="https://youtu.be/xxx" target="_blank">665</a>
+<a href="https://youtu.be/xxx" target="_blank">664</a>
+<a href="https://youtu.be/xxx" target="_blank">663</a>
+<a href="https://youtu.be/xxx" target="_blank">662</a>
+<a href="https://youtu.be/xxx" target="_blank">661</a>
+<a href="https://youtu.be/xxx" target="_blank">660</a>
+<a href="https://youtu.be/xxx" target="_blank">659</a>
+<a href="https://youtu.be/xxx" target="_blank">658</a>
+<a href="https://youtu.be/xxx" target="_blank">657</a>
+<a href="https://youtu.be/xxx" target="_blank">656</a>
+<a href="https://youtu.be/xxx" target="_blank">655</a>
+<a href="https://youtu.be/xxx" target="_blank">654</a>
+<a href="https://youtu.be/xxx" target="_blank">653</a>
+<a href="https://youtu.be/xxx" target="_blank">652</a>
+<a href="https://youtu.be/xxx" target="_blank">651</a>
+<a href="https://youtu.be/xxx" target="_blank">650</a>
+<a href="https://youtu.be/xxx" target="_blank">649</a>
+<a href="https://youtu.be/xxx" target="_blank">648</a>
+<a href="https://youtu.be/xxx" target="_blank">647</a>
+<a href="https://youtu.be/xxx" target="_blank">646</a>
+<a href="https://youtu.be/xxx" target="_blank">645</a>
+<a href="https://youtu.be/xxx" target="_blank">644</a>
+<a href="https://youtu.be/xxx" target="_blank">643</a>
+<a href="https://youtu.be/xxx" target="_blank">642</a>
+<a href="https://youtu.be/xxx" target="_blank">641</a>
+<a href="https://youtu.be/xxx" target="_blank">640</a>
+<a href="https://youtu.be/xxx" target="_blank">639</a>
+<a href="https://youtu.be/xxx" target="_blank">638</a>
+<a href="https://youtu.be/xxx" target="_blank">637</a>
+<a href="https://youtu.be/xxx" target="_blank">636</a>
+<a href="https://youtu.be/xxx" target="_blank">635</a>
+<a href="https://youtu.be/xxx" target="_blank">634</a>
+<a href="https://youtu.be/xxx" target="_blank">633</a>
+<a href="https://youtu.be/xxx" target="_blank">632</a>
+<a href="https://youtu.be/xxx" target="_blank">631</a>
+<a href="https://youtu.be/xxx" target="_blank">630</a>
+<a href="https://youtu.be/xxx" target="_blank">629</a>
+<a href="https://youtu.be/xxx" target="_blank">628</a>
+<a href="https://youtu.be/xxx" target="_blank">627</a>
+<a href="https://youtu.be/xxx" target="_blank">626</a>
+<a href="https://youtu.be/xxx" target="_blank">625</a>
+<a href="https://youtu.be/xxx" target="_blank">624</a>
+<a href="https://youtu.be/xxx" target="_blank">623</a>
+<a href="https://youtu.be/xxx" target="_blank">622</a>
+<a href="https://youtu.be/xxx" target="_blank">621</a>
+<a href="https://youtu.be/xxx" target="_blank">620</a>
+<a href="https://youtu.be/xxx" target="_blank">619</a>
+<a href="https://youtu.be/xxx" target="_blank">618</a>
+<a href="https://youtu.be/xxx" target="_blank">617</a>
+<a href="https://youtu.be/xxx" target="_blank">616</a>
+<a href="https://youtu.be/xxx" target="_blank">615</a>
+<a href="https://youtu.be/xxx" target="_blank">614</a>
+<a href="https://youtu.be/xxx" target="_blank">613</a>
+<a href="https://youtu.be/xxx" target="_blank">612</a>
+<a href="https://youtu.be/xxx" target="_blank">611</a>
+<a href="https://youtu.be/xxx" target="_blank">610</a>
+<a href="https://youtu.be/xxx" target="_blank">609</a>
+<a href="https://youtu.be/xxx" target="_blank">608</a>
+<a href="https://youtu.be/xxx" target="_blank">607</a>
+<a href="https://youtu.be/xxx" target="_blank">606</a>
+<a href="https://youtu.be/xxx" target="_blank">605</a>
+<a href="https://youtu.be/xxx" target="_blank">604</a>
+<a href="https://youtu.be/xxx" target="_blank">603</a>
+<a href="https://youtu.be/xxx" target="_blank">602</a>
+<a href="https://youtu.be/xxx" target="_blank">601</a>
+<a href="https://youtu.be/xxx" target="_blank"><b>600</b></a>
+<a href="https://youtu.be/xxx" target="_blank">599</a>
+<a href="https://youtu.be/xxx" target="_blank">598</a>
+<a href="https://youtu.be/xxx" target="_blank">597</a>
+<a href="https://youtu.be/xxx" target="_blank">596</a>
+<a href="https://youtu.be/xxx" target="_blank">595</a>
+<a href="https://youtu.be/xxx" target="_blank">594</a>
+<a href="https://youtu.be/xxx" target="_blank">593</a>
+<a href="https://youtu.be/xxx" target="_blank">592</a>
+<a href="https://youtu.be/xxx" target="_blank">591</a>
+<a href="https://youtu.be/xxx" target="_blank">590</a>
+<a href="https://youtu.be/xxx" target="_blank">589</a>
+<a href="https://youtu.be/xxx" target="_blank">588</a>
+<a href="https://youtu.be/xxx" target="_blank">587</a>
+<a href="https://youtu.be/xxx" target="_blank">586</a>
+<a href="https://youtu.be/xxx" target="_blank">585</a>
+<a href="https://youtu.be/xxx" target="_blank">584</a>
+<a href="https://youtu.be/xxx" target="_blank">583</a>
+<a href="https://youtu.be/xxx" target="_blank">582</a>
+<a href="https://youtu.be/xxx" target="_blank">581</a>
+<a href="https://youtu.be/xxx" target="_blank">580</a>
+<a href="https://youtu.be/xxx" target="_blank">579</a>
+<a href="https://youtu.be/xxx" target="_blank">578</a>
+<a href="https://youtu.be/xxx" target="_blank">577</a>
+<a href="https://youtu.be/xxx" target="_blank">576</a>
+<a href="https://youtu.be/xxx" target="_blank">575</a>
+<a href="https://youtu.be/xxx" target="_blank">574</a>
+<a href="https://youtu.be/xxx" target="_blank">573</a>
+<a href="https://youtu.be/xxx" target="_blank">572</a>
+<a href="https://youtu.be/xxx" target="_blank">571</a>
+<a href="https://youtu.be/xxx" target="_blank">570</a>
+<a href="https://youtu.be/xxx" target="_blank">569</a>
+<a href="https://youtu.be/xxx" target="_blank">568</a>
+<a href="https://youtu.be/xxx" target="_blank">567</a>
+<a href="https://youtu.be/xxx" target="_blank">566</a>
+<a href="https://youtu.be/xxx" target="_blank">565</a>
+<a href="https://youtu.be/xxx" target="_blank">564</a>
+<a href="https://youtu.be/xxx" target="_blank">563</a>
+<a href="https://youtu.be/xxx" target="_blank">562</a>
+<a href="https://youtu.be/xxx" target="_blank">561</a>
+<a href="https://youtu.be/xxx" target="_blank">560</a>-->
+<br><b>PUBLISHED VIDEOS:</b>
+<a href="https://youtu.be/eEa6xHhtvCg" target="_blank">559</a><!--cabri 8 window regulator-->
+<a href="https://youtu.be/0BRQSegUAjw" target="_blank">558</a><!--cabri 7 trans cooler-->
+<a href="https://youtu.be/lqduPaCenGM" target="_blank">557</a><!--iphone mount-->
+<a href="https://youtu.be/xQ3Tx0C2tQk" target="_blank">556</a><!--plant moisture meter -->
+<a href="https://youtu.be/E0eZGA9SrWM" target="_blank">555</a><!--cabri 6 oil change -->
+<a href="https://youtu.be/cZCmyzndlyc" target="_blank">554</a><!--cabri 5 neutral safety switch-->
+<a href="https://youtu.be/zBOIooBE-Ys" target="_blank">553</a><!--RYOBI planer-->
+<a href="https://youtu.be/DhV4qlnpY88" target="_blank">552</a><!--woodpecker-->
+<a href="https://youtu.be/3nrNAWvIxfg" target="_blank">551</a><!--sprinkler repair-->
+<a href="https://youtu.be/mVOEQqHmQ2U" target="_blank">550</a><!--6 tier wall file organzr-->
+<a href="https://youtu.be/AFs8qGQDUUs" target="_blank">549</a><!--1/2" pneumatic-->
+<a href="https://youtu.be/p-1QC6zFqqo" target="_blank">548</a><!--husky workbench-->
+<a href="https://youtu.be/Zo5UwmMdnZE" target="_blank">547</a><!--exercise bike bearings-->
+<a href="https://youtu.be/rg6tF8d45KE" target="_blank">546</a><!--hdtv antenna-->
+<a href="https://youtu.be/h3jYLRqxdiM" target="_blank">545</a><!--rainx windshield-->
+<a href="https://youtu.be/7PNvp6UPwOA" target="_blank">544</a><!--cabrio water pump2-->
+<a href="https://youtu.be/-ZINIr-o-jc " target="_blank">543</a><!--skateboard deck repair-->
+<a href="https://youtu.be/-p9-Xznkk3Y " target="_blank">542</a><!--organic eclairs-->
+<a href="https://youtu.be/PJxYBiNXxVI " target="_blank">541</a><!--imac unbox-->
+<a href="https://youtu.be/kswfFIT5MnM " target="_blank">540</a><!--KOMOI car vent holder-->
+<a href="https://youtu.be/eY__nBdSTOE" target="_blank">539</a><!--vipertek laser unbox-->
+<a href="https://youtu.be/JD90lEJC6Cw" target="_blank">538</a><!--tub shower handheld valve-->
+<a href="https://youtu.be/GN26rnEiatU" target="_blank">537</a><!--costco led light fixture-->
+<a href="https://youtu.be/bAswXf7QbDw" target="_blank">536</a><!--mothers day flower barrel-->
+<a href="https://youtu.be/LDb5PI5adnU" target="_blank">535</a><!--stay at home carrot cake-->
+<a href="https://youtu.be/ZJgIdshezFA" target="_blank">534</a><!--fool proof wheat bread-->
+<a href="https://youtu.be/6RfPCIhhOhQ" target="_blank">533</a><!--asmr organic caesar salad unbagging-->
+<a href="https://youtu.be/Apj7jTZucHg" target="_blank">532</a><!--arts and crafts - hd formal spiral art 2-->
+<a href="https://youtu.be/5ydFeVTYib4" target="_blank">531</a><!--ultimate best ever chocolate chip cookies-->
+<a href="https://youtu.be/IDdl118jAu8" target="_blank">530</a><!--guitar pedal unboxing-->
+<a href="https://youtu.be/Ns0jH0idU-I" target="_blank">529</a><!--harbor freight viking battery charger-->
+<a href="https://youtu.be/1PeT1EUIPec" target="_blank">528</a><!--birdwatching - adult female downy-->
+<a href="https://youtu.be/Q5cWv1_IwCo" target="_blank">527</a><!--side yard spring cleanup-->
+<a href="https://youtu.be/5iztRgUrZZQ" target="_blank">526</a><!--retaining wall repair-->
+<a href="https://youtu.be/dMfx17z3aBc" target="_blank">525</a><!--windowsill gardening-->
+<a href="https://youtu.be/kW6WbMpMbPw" target="_blank">524</a><!--earthquake xt 12v-->
+<a href="https://youtu.be/1wpMokCDD1s" target="_blank">523</a><!--arts and crafts hd format spiral art 1-->
+<a href="https://youtu.be/yTdYH5TEEFo" target="_blank">522</a><!--lemon tree seedling transplants-->
+<a href="https://youtu.be/Gort4Jeizsk" target="_blank">521</a><!--arts and crafts 1-->
+<a href="https://youtu.be/0A77SHuotls" target="_blank">520</a><!--deck prep for paint-->
+<a href="https://youtu.be/Aj6jtIqFcnQ" target="_blank">519</a><!--diy cold frame shelving unit-->
+<a href="https://youtu.be/0-xNdqSkfQA" target="_blank">518</a><!--2020 gardening 4-->
+<a href="https://youtu.be/YqEOfGtEdic" target="_blank">517</a><!--triumph motorcycle engine rebuild 1-->
+<a href="https://youtu.be/3QOKwWzUEtA" target="_blank">516</a><!--garden tool tlc-->
+<a href="https://youtu.be/4mBFWJfa62A" target="_blank">515</a><!--four drawer tool cart-->
+<a href="https://youtu.be/ekv8CkKmKhY" target="_blank">514</a><!--sourdough starter 7-->
+<a href="https://youtu.be/i672qjjkmns" target="_blank">513</a><!--sourdough starter 6-->
+<a href="https://youtu.be/KUDslgULcao" target="_blank">512</a><!--sourdough starter 5-->
+<a href="https://youtu.be/qb-8v_IZRwU" target="_blank">511</a><!--garage stereo - fixing-->
+<a href="https://youtu.be/ueQzgBweHe8" target="_blank">510</a><!--sourdough starter 4-->
+<a href="https://youtu.be/H_ctHkr1v9U" target="_blank">509</a><!--sourdough starter 3-->
+<a href="https://youtu.be/TH-IsY1HTIE" target="_blank">508</a><!--sourdough starter 2-->
+<a href="https://youtu.be/nOSDuCAGbAY" target="_blank">507</a><!--trailer full of projects 2 (HD)-->
+<a href="https://youtu.be/cq0vMm9p5BI" target="_blank">506</a><!--sourdough starter 1-->
+<a href="https://youtu.be/ST9yFQggYYE" target="_blank">505</a><!--2020 gardening 3-->
+<a href="https://youtu.be/ah5WKO4dvyI" target="_blank">504</a><!--bobber chopper 1-->
+<a href="https://youtu.be/1rPxF9CNuGA" target="_blank">503</a><!--trailer full of projects 2-->
+<a href="https://youtu.be/Ivzvr989NQI" target="_blank">502</a><!--barn find gilera 1-->
+<a href="https://youtu.be/5_Apa9fd668" target="_blank">501</a><!--97 del sol 11 - remove window tint-->
+<a href="https://youtu.be/5_Apa9fd668" target="_blank"><b>500</b></a><!--starting seeds-->
+<a href="https://youtu.be/Od2Dd1M6C5k" target="_blank">499</a><!--Saturday Projectsâ„¢.com | Follow up on Fixing a wheelbarrow wheel with a can of foam - did it work?-->
+<a href="https://youtu.be/jxt-HvViZz0" target="_blank">498</a><!--Saturday Projectsâ„¢.com | 1997 Honda Del Sol - 10 | Crank no start diagnostic and fix-->
+<a href="https://youtu.be/hoJUXihDXZw" target="_blank">497</a><!--Saturday Projectsâ„¢.com | Trailer full of projects - chopper and bobber projects - we'll see...-->
+<a href="https://youtu.be/leDLPQmIjT8" target="_blank">496</a><!--Saturday Projectsâ„¢.com | GARDENING 2020 - 1 | Cracking open the seed vault and organizing seeds-->
+<a href="https://youtu.be/iSSawOXKDgI" target="_blank">495</a><!--Saturday Projectsâ„¢.com | Fixing a wheelbarrow wheel with foam - did it work?-->
+<a href="https://youtu.be/okRVZ9ltCQs" target="_blank">494</a><!--Saturday Projectsâ„¢.com | 1999 Ford E150 - Deciding on where to place 2nd and 3rd row seats in van-->
+<a href="https://youtu.be/VFmiRvL8sCs" target="_blank">493</a><!--Saturday Projectsâ„¢.com | Bucket Wall Tool Storage - I thought it was a good idea at the time-->
+<a href="https://youtu.be/MvQBRQjgKS0" target="_blank">492</a><!--Saturday Projectsâ„¢.com | After many, many, miles worth of going nowhere... stationary bike down-->
+<a href="https://youtu.be/dwz4JQEM_-k" target="_blank">491</a><!--Saturday Projectsâ„¢.com | Testing Jobe's Organics Fruit & Citrus Tree Fertilizer - Day 1-->
+<a href="https://youtu.be/kb8OqIVTDm8" target="_blank">490</a><!--Saturday Projectsâ„¢.com | Table Saw Table - temporary solution for a benchtop tablesaw to cut things-->
+<a href="https://youtu.be/CR1Ez6ZZqQU" target="_blank">489</a><!--Saturday Projectsâ„¢.com | 1993 Honda Del Sol Project - 3 | Remove cylinder head to inspect gasket-->
+<a href="https://youtu.be/9A83K5Y2UtU" target="_blank">488</a><!--Saturday Projectsâ„¢.com | 1993 Honda Del Sol Project - 2 | Unboxing FEL-PRO head gasket set-->
+<a href="https://youtu.be/vb5CUyZh2DM" target="_blank">487</a><!--Saturday Projectsâ„¢.com | 2001 Volkswagen Cabrio - 3 | What's Inside this 20 year old water pump?-->
+<a href="https://youtu.be/J14ezuBSwVw" target="_blank">486</a><!--Saturday Projectsâ„¢.com | Dryer Vent Upgrade - replacing a squished accordion with a dryer flute-->
+<a href="https://youtu.be/py0oOWmp-zA" target="_blank">485</a><!--Saturday Projectsâ„¢.com | The Best Triple Sheeting a Bed - Modified - All the clean without the tuck.-->
+<a href="https://youtu.be/Ir_HsDFw0xQ" target="_blank">484</a><!--Saturday Projectsâ„¢.com | Organic Chicken, Broccoli, and Rice - ain't it nice.-->
+<a href="https://youtu.be/rnGXHX79KH4" target="_blank">483</a><!--Saturday Projectsâ„¢.com | 2001 Volkswagen Cabrio - 2 | Up on jacks and water pump removal.-->
+<a href="https://youtu.be/23MCuYrohZg" target="_blank">482</a><!--Saturday Projectsâ„¢.com | 1993 Honda Del Sol Project - 1 | Harbor Freight random orbital polisher.-->
+<a href="https://youtu.be/EwnKUga9ftQ" target="_blank">481</a><!--Saturday Projectsâ„¢.com | Garden Landscape | Removing landscape fabric and transplanting strawberries-->
+<a href="https://youtu.be/mYbtumV6ivU" target="_blank">480</a><!--Saturday Projectsâ„¢.com | 1997 Honda Del Sol - 9 | First interior cleanup and detail honda del sol-->
+<a href="https://youtu.be/Hw6bxF2WeKI" target="_blank">479</a><!--Saturday Projectsâ„¢.com | 1997 Honda Del Sol - 8 | Part 2 of stereo and speaker installation on honda-->
+<a href="https://youtu.be/YgnWoOnr5Zc" target="_blank">478</a><!--Saturday Projectsâ„¢.com | 1997 Honda Del Sol - 7 | Part 1 of a stereo and speaker installation-->
+<a href="https://youtu.be/YahOT90uOVM" target="_blank">477</a><!--Saturday Projectsâ„¢.com | 1997 Honda Del Sol - 6 | Clean and spray paint steel wheel rims black-->
+<a href="https://youtu.be/ZpW8pBTr4E4" target="_blank">476</a><!--Saturday Projectsâ„¢.com | 1997 Honda Del Sol - 5 | Changing the oil while the car is up on stands-->
+<a href="https://youtu.be/OmkS0xq8Hlg" target="_blank">475</a><!--Saturday Projectsâ„¢.com | 1997 Honda Del Sol - 4 | Up on jack stands replace radiator fluid prestone-->
+<a href="https://youtu.be/xbxceuMrXY8" target="_blank">474</a><!--Saturday Projectsâ„¢.com | 1997 Honda Del Sol - 3 | Car batteries do not like being ignored. replaced-->
+<a href="https://youtu.be/V9sARBbuI8w" target="_blank">473</a><!--Saturday Projectsâ„¢.com | 1997 Honda Del Sol - 2 | Diagnose and replace radiator fan-->
+<a href="https://youtu.be/jXuqWvPwiEE" target="_blank">472</a><!--Saturday Projectsâ„¢.com | Hamilton Beach Hand Blender | Unboxing stick blender for soap making-->
+<a href="https://youtu.be/E9GKCZFu7Zs" target="_blank">471</a><!--Saturday Projectsâ„¢.com | Cat Cave Stereo Console | Tearing down a modified vintage stereo console-->
+<a href="https://youtu.be/R8CAqlch30o" target="_blank">470</a><!--Saturday Projectsâ„¢.com | Replacing outlets and light switches | Just a few more rooms to go-->
+<a href="https://youtu.be/30NO-3c3VBA" target="_blank">469</a><!--Saturday Projectsâ„¢.com | Chemical Guys Auto Detail Products | unboxing for headlight restoration-->
+<a href="https://youtu.be/4KVZOrNOeD0" target="_blank">468</a><!--Saturday Projectsâ„¢.com | MyWeigh KD-8000 Kitchen Scale | Unboxing new equipment for making soap-->
+<a href="https://youtu.be/FdgCbg8qj04" target="_blank">467</a><!--Saturday Projectsâ„¢.com | 2001 Volkswagen Cabrio 1 | Delivery and flat tire fix which didn't work.-->
+<a href="https://youtu.be/MPwTc3xr2sU" target="_blank">466</a><!--Saturday Projectsâ„¢.com | Bucket Hose Holder Tool Organizer-->
+<a href="https://youtu.be/F1zKxHwC1FU" target="_blank">465</a><!--Saturday Projectsâ„¢.com | Flat Tire Repair Without Removing Wheel-->
+<a href="https://youtu.be/aQUZQ57F5zM" target="_blank">464</a><!--Saturday Projectsâ„¢.com | Delta Shopmaster Tablesaw Switch Repair-->
+<a href="https://youtu.be/Egx6mVz8C74" target="_blank">463</a><!--Saturday Projectsâ„¢.com | Danish Oil Finish on Red Oak Mantel Shelf-->
+<a href="https://youtu.be/MhF_Z9vSHcI" target="_blank">462</a><!--Saturday Projectsâ„¢.com | Skylight Greenhouse Experiment-->
+<a href="https://youtu.be/NVHPLW_ZS2g" target="_blank">461</a><!--Saturday Projectsâ„¢.com | Red Oak Fireplace Mantel Shelf-->
+<a href="https://youtu.be/LVnkQH-CQGc" target="_blank">460</a><!--Saturday Projectsâ„¢.com | Studio Lighting Kit-->
+<a href="https://youtu.be/jxB4k8X3Hk4" target="_blank">459</a><!--Saturday Projectsâ„¢.com | Black and Decker Palm Sander-->
+<a href="https://youtu.be/Y6ziZO9n7Dg" target="_blank">458</a><!--Saturday Projectsâ„¢.com | Hoover Carpet cleaner unboxing-->
+<a href="https://youtu.be/pCJWOtBB5JM" target="_blank">457</a><!--Saturday Projectsâ„¢.com | Three Dollar Printer from Thrift Store-->
+<a href="https://youtu.be/oPCRcQz6eyM" target="_blank">456</a><!--Saturday Projectsâ„¢.com | Presto Heat Dish - unboxing-->
+<a href="https://youtu.be/N1ISDOwd-zU" target="_blank">455</a><!--Saturday Projectsâ„¢.com | CD Slot Phone / Tablet Mount for Car-->
+<a href="https://youtu.be/nCE8YrQRgD8" target="_blank">454</a><!--Saturday Projectsâ„¢ .com | Scythe Kit Unboxing-->
+<a href="https://youtu.be/jmC611fKCII" target="_blank">453</a><!--Saturday Projectsâ„¢ .com | Scythe Assembly-->
+<a href="https://youtu.be/cDR_Vehyuik" target="_blank">452</a><!--Saturday Projectsâ„¢ .com | 1997 Honda Del Sol - 1 | The Ultimate (used) College Car?-->
+<a href="https://youtu.be/xZsAYCzc5Bg" target="_blank">451</a><!--Saturday Projectsâ„¢ .com | FREE organic Walnut Tree Seedlings - thank you squirrels!-->
+<a href="https://youtu.be/7x6Nexzfj-Q" target="_blank">450</a><!--Saturday Projectsâ„¢ .com | Removing A Broken Crankshaft Bolt On A 1999 Ford E-150 Van-->
+<a href="https://youtu.be/G0Yq2nUhurs" target="_blank">449</a><!--Saturday Projectsâ„¢ .com | How To Restring A Classical Guitar (Close-ups!)-->
+<a href="https://youtu.be/NnRwxMdEwAE" target="_blank">448</a><!--Saturday Projectsâ„¢ .com | 5 Gallon Bucket Tool Organizers (Repurposed!)-->
+<a href="https://youtu.be/ahAVFRVENMk" target="_blank">447</a><!--Saturday Projectsâ„¢ .com | Bucket Storage Wall Removal (it worked, but...)-->
+<a href="https://youtu.be/sT1xacFtoRc" target="_blank">446</a><!--Saturday Projectsâ„¢ .com | Scrap Wood Car Ramps V1-->
+<a href="https://youtu.be/wafhnB8vWyk" target="_blank">445</a><!--Saturday Projectsâ„¢ .com | Soaker Hose Drip Irrigation-->
+<a href="https://youtu.be/wix0nFUrF5w" target="_blank">444</a><!--Saturday Projectsâ„¢ .com | Garage Workshop Ventilation (under $20!)-->
+<a href="https://youtu.be/MASkxVBXMAQ" target="_blank">443</a><!--Saturday Projectsâ„¢ .com | Fixing a Broken Garage Door-->
+<a href="https://youtu.be/UN_tPF1t5_M" target="_blank">442</a><!--Saturday Projectsâ„¢ .com | Installing Drip Irrigation Riser Kit-->
+<a href="https://youtu.be/S3kRhXN-VfM" target="_blank">441</a><!--Saturday Projectsâ„¢ .com | Weâ€™re BIG Fans Of This Fan-->
+<a href="https://youtu.be/tva89EJRQFs" target="_blank">440</a><!--Saturday Projectsâ„¢ .com | BEST PRESSURE WASHER FOR PAINTED DECKS - SATISFYING - Saturday Projectsâ„¢-->
+<a href="https://youtu.be/bxRiSV__JLc" target="_blank">439</a><!--Saturday Projectsâ„¢ .com | Ford e-150 harmonic balancer re-ship-->
+<a href="https://youtu.be/xD6lQjzTK-Q" target="_blank">438</a><!--Saturday Projectsâ„¢ .com | New Dickies Coveralls (love them!)-->
+<a href="https://youtu.be/KPr5ZLcKddo" target="_blank">437</a><!--Saturday Projectsâ„¢ .com | Smoke and Carbon Monoxide Alarm Unboxing | Home Safety Alarms-->
+<a href="https://youtu.be/FoLZd13Di7U" target="_blank">436</a><!--Saturday Projectsâ„¢ .com | Full Motion TV Wall Mount-->
+<a href="https://youtu.be/gta9wXt71RE" target="_blank">435</a><!--Saturday Projectsâ„¢ .com | Mountain Bike Spoke Replacement-->
+<a href="https://youtu.be/iRgQZYgtO7s" target="_blank">434</a><!--Saturday Projectsâ„¢ .com | Etekcity Infrared Thermometer Unboxing-->
+<a href="https://youtu.be/L0MVnvzTfdA" target="_blank">433</a><!--Saturday Projectsâ„¢ .com | Installing Interior Slide Bolt-->
+<a href="https://youtu.be/8-er41raP6I" target="_blank">432</a><!--Saturday Projectsâ„¢ .com | Over-the-door Towel Rack Oops-->
+<a href="https://youtu.be/szPcJNsvH1M" target="_blank">431</a><!--Saturday Projectsâ„¢ .com | Walmart 0.7 cu. ft. Stainless Steel Microwave-->
+<a href="https://youtu.be/AwdvK3YIDgM" target="_blank">430</a><!--Saturday Projectsâ„¢ .com | PRISMACOLOR PREMIER HAND LETTERING ADVANCED SET-->
+<a href="https://youtu.be/T6DlbjiRcGA" target="_blank">429</a><!--Saturday Projectsâ„¢ .com | 2007 Hyundai Fuel Pump Replacement-->
+<a href="https://youtu.be/wgwocSnGspI" target="_blank">428</a><!--Saturday Projectsâ„¢ .com | Stainless Steel Garment Rack from Costco-->
+<a href="https://youtu.be/Ip5tgU5j00g" target="_blank">427</a><!--Saturday Projectsâ„¢ .com | THE BEST CHEAP LIGHTING solution FOR YOUR GARAGE PROJECTS UNDER $30-->
+<a href="https://youtu.be/uAtIeVDqVyA" target="_blank">426</a><!--Saturday Projectsâ„¢ .com | BROOM-->
+<a href="https://youtu.be/o9UjO400VDA" target="_blank">425</a><!--Saturday Projectsâ„¢ .com | Viennese Swirls-->
+<a href="https://youtu.be/952w5LuJkpI" target="_blank">424</a><!--Saturday Projectsâ„¢ .com | Vizio Smart TV UNBOXING-->
+<a href="https://youtu.be/uNtKxRVi0yY" target="_blank">423</a><!--Saturday Projectsâ„¢ .com | Kuerig K-Classic K55 UNBOXING-->
+<a href="https://youtu.be/Hnt1zsFofsE" target="_blank">422</a><!--Saturday Projectsâ„¢ .com | Hoover fail-->
+<a href="https://youtu.be/11nWOe-m-Lk" target="_blank">421</a><!--Saturday Projectsâ„¢ .com | Harbor Freight 2 Gallon Garden and Home Sprayer-->
+<a href="https://youtu.be/5xOA4SQjT0Y" target="_blank">420</a><!--Saturday Projectsâ„¢ .com | How To Paint Furniture - Antique Technique - Inexpensive!-->
+<a href="https://youtu.be/WqCkDY-Ufl4" target="_blank">419</a><!--Saturday Projectsâ„¢ .com | Epiphone Electric Bass and Peavey Amplifier-->
+<a href="https://youtu.be/aAeMSY8B-jY" target="_blank">418</a><!--Saturday Projectsâ„¢ .com | Harbor Freight Six Inch Dual Action Polisher Unboxing-->
+<a href="https://youtu.be/Cncv-h6Eq28" target="_blank">417</a><!--Saturday Projectsâ„¢ .com | How to clean your stone or rock fireplace-->
+<a href="https://youtu.be/yPuiwjYLzTA" target="_blank">416</a><!--Saturday Projectsâ„¢ .com | Strawberry Tart-->
+<a href="https://youtu.be/5smVSzTyZOU" target="_blank">415</a><!--Saturday Projectsâ„¢ .com | How to clean a cabin air filter-->
+<a href="https://youtu.be/IPH_vvm6H94" target="_blank">414</a><!--Saturday Projectsâ„¢ .com | Hoover Carpet Cleaner Fail-->
+<a href="https://youtu.be/b8Vy32jzzy8" target="_blank">413</a><!--Saturday Projectsâ„¢ .com | Swimming Suit Alteration-->
+<a href="https://youtu.be/nViy57Ly9Ao" target="_blank">412</a><!--Saturday Projectsâ„¢ .com | DIY GLITTER BOOTS-->
+<a href="https://youtu.be/liPSDZC6HV8" target="_blank">411</a><!--Saturday Projectsâ„¢ .com | DIY Weed Killer Vinegar 9 mo Update-->
+<a href="https://youtu.be/ZUWTAnq9jgY" target="_blank">410</a><!--Saturday Projectsâ„¢ .com | Back To Eden Strawberries YR 2-->
+<a href="https://youtu.be/MbZ_zDH-LCA" target="_blank">409</a><!--Saturday Projectsâ„¢ .com | oemfordpart unboxing-->
+<a href="https://youtu.be/ZJRMPQPos-0" target="_blank">408</a><!--Saturday Projectsâ„¢ .com | Ballet Hacks-->
+<a href="https://youtu.be/IrB3TVu3Hdk" target="_blank">407</a><!--Saturday Projectsâ„¢ .com | Toilet Replacement-->
+<a href="https://youtu.be/wZrn6hAWBEQ" target="_blank">406</a><!--Saturday Projectsâ„¢ .com | 2007 Hyundai Sonata Front Brake Pads - plus --->
+<a href="https://youtu.be/1mClDoK6om4" target="_blank">405</a><!--Saturday Projectsâ„¢ .com | SOCKET SAVER-->
+<a href="https://youtu.be/LQjd39x72mY" target="_blank">404</a><!--Saturday Projectsâ„¢ .com | DELTA ALUX Faucet Unboxing-->
+<a href="https://youtu.be/itI9jAcRMZQ" target="_blank">403</a><!--Saturday Projectsâ„¢ .com | Replacing Toilet Supply Valve-->
+<a href="https://youtu.be/75IXOVtTVwE" target="_blank">402</a><!--Saturday Projectsâ„¢ .com | Dryer Duct Replacement - 2-->
+<a href="https://youtu.be/XlFyD9X2ZmM" target="_blank">401</a><!--Saturday Projectsâ„¢ .com | Installing Toilet After Tile-->
+<a href="https://youtu.be/Ena0IFsZWsI" target="_blank"><b>400</b></a><!--Saturday Projectsâ„¢ .com | Dryer Duct Replacement - 1-->
+<a href="https://youtu.be/MiQLy9aymC4" target="_blank">399</a><!--Saturday Projectsâ„¢ .com | Fixing a Sunk Sidewalk Section-->
+<a href="https://youtu.be/0qhwgS5rsHQ" target="_blank">398</a><!--Saturday Projectsâ„¢ .com | Dryer Dial Repair-->
+<a href="https://youtu.be/q0Kcd2BzJPw" target="_blank">397</a><!--Saturday Projectsâ„¢ .com | 4 TON BOTTLE JACK-->
+<a href="https://youtu.be/cMFlEqxmANM" target="_blank">396</a><!--Saturday Projectsâ„¢ .com | Dryer Duct Cleaning Kit-->
+<a href="https://youtu.be/xjZhip3FZs0" target="_blank">395</a><!--Saturday Projectsâ„¢ .com | THE BEST WAY to CLEAN YOUR CLOTHES LAUNDRY DRYER VENT DUCTS-->
+<a href="https://youtu.be/WcyJTtoXwJ4" target="_blank">394</a><!--Saturday Projectsâ„¢ .com | THE BEST WAY TO CLEAN WATER JUGS AND BOTTLES w/natural ingredients-->
+<a href="https://youtu.be/rsWYHyhqV5k" target="_blank">393</a><!--Saturday Projectsâ„¢ .com | Refurbished IPhone 6s Plus Unboxing Amazon-->
+<a href="https://youtu.be/PE0cOTj7h9s" target="_blank">392</a><!--Saturday Projectsâ„¢ .com | MANIFESTO-->
+<a href="https://youtu.be/E-3fj6QpTOI" target="_blank">391</a><!--Saturday Projectsâ„¢ .com | OXO GoodGrips Chopper Unboxing - SaturdayProjectsâ„¢ - KITCHEN-->
+<a href="https://youtu.be/df8bCNfO-AY" target="_blank">390</a><!--Saturday Projectsâ„¢ .com | DuraCeramic Griddle Unboxing - SaturdayProjectsâ„¢ - KITCHEN-->
+<a href="https://youtu.be/JJRLsPj9wfs" target="_blank">389</a><!--Saturday Projectsâ„¢ .com | Mango Sorbet - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/oAwcWi0b9_g" target="_blank">388</a><!--Saturday Projectsâ„¢ .com | Spaghetti & Meatballs - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/L0nSlBGAVEE" target="_blank">387</a><!--Saturday Projectsâ„¢ .com | Oatmeal Cranberry Cookies - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/Bb-EveyNKnk" target="_blank">386</a><!--Saturday Projectsâ„¢ .com | Organic Thin Crust Pizza - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/FZkG9Gn6Aco" target="_blank">385</a><!--Saturday Projectsâ„¢ .com | Salmon Spaghetti - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/ElNXe-iP4E0" target="_blank">384</a><!--Saturday Projectsâ„¢ .com | BBQ Chicken Sandwich - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/g4hhUvVHp-E" target="_blank">383</a><!--Saturday Projectsâ„¢ .com | Butterfly Chicken - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/Tx6b0h4N1ZA" target="_blank">382</a><!--Saturday Projectsâ„¢ .com | Roast Chicken - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/Am3oNCobQgs" target="_blank">381</a><!--Saturday Projectsâ„¢ .com | Brined Turkey - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/cw8ZvJ75_8Y" target="_blank">380</a><!--Saturday Projectsâ„¢ .com | Organic Spaghetti - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/p-zOHfRtSaI" target="_blank">379</a><!--Saturday Projectsâ„¢ .com | NutribulletRX Unboxing - SaturdayProjectsâ„¢ - KITCHEN-->
+<a href="https://youtu.be/LOK6Hg26oCM" target="_blank">378</a><!--Saturday Projectsâ„¢ .com | Organic Pancakes - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/MeGqtor1xQg" target="_blank">377</a><!--Saturday Projectsâ„¢ .com | Spicy Bean Dip - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/awfPP09BAjQ" target="_blank">376</a><!--Saturday Projectsâ„¢ .com | Whole Wheat Rolls - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/dS1DfvPNh2A" target="_blank">375</a><!--Saturday Projectsâ„¢ .com | Margherita Tortilla Pizza - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/AqgCMlXkRs0" target="_blank">374</a><!--Saturday Projectsâ„¢ .com | Applesauce Spice Cake - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/zbFVmPbeUng" target="_blank">373</a><!--Saturday Projectsâ„¢ .com | Mexican Pot Roast - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/snENU1VMFdM" target="_blank">372</a><!--Saturday Projectsâ„¢ .com | Italian Chicken Sandwiches - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/xsSfufK8blA" target="_blank">371</a><!--Saturday Projectsâ„¢ .com | French Toast - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/dcWrTxbg-4Q" target="_blank">370</a><!--Saturday Projectsâ„¢ .com | Garlic Bread - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/3HpyOvpTmDM" target="_blank">369</a><!--Saturday Projectsâ„¢ .com | German Chocolate Cake - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/0AP75aPzbNw" target="_blank">368</a><!--Saturday Projectsâ„¢ .com | Cornbread - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/1FMaKwiyclg" target="_blank">367</a><!--Saturday Projectsâ„¢ .com | Chocolate Syrup - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/KI-POAzemtU" target="_blank">366</a><!--Saturday Projectsâ„¢ .com | Champion Juice - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/Yah9uDvbims" target="_blank">365</a><!--Saturday Projectsâ„¢ .com | Chocolate Chip Cookies - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/rqUM92t7Wt4" target="_blank">364</a><!--Saturday Projectsâ„¢ .com | Cinnamon Rolls - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/4scJ85S1kIg" target="_blank">363</a><!--Saturday Projectsâ„¢ .com | Cherry Crisp - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/9OCMdwL0Y2g" target="_blank">362</a><!--Saturday Projectsâ„¢ .com | Best Brownies - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/ijL4EK4xO-4" target="_blank">361</a><!--Saturday Projectsâ„¢ .com | Baked Potato - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/v2WKp-wcYbQ" target="_blank">360</a><!--Saturday Projectsâ„¢ .com | Beans and Toast - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/dPKju6F6YXc" target="_blank">359</a><!--Saturday Projectsâ„¢ .com | Berries Chantilly - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/NFHeDkErhGg" target="_blank">358</a><!--Saturday Projectsâ„¢ .com | Breakfast Burritos - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/RxIekACKhBI" target="_blank">357</a><!--Saturday Projectsâ„¢ .com | Breakfast Muffins - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/A57mHbc9Y2s" target="_blank">356</a><!--Saturday Projectsâ„¢ .com | Tortilla Pizza - Saturday Projectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/CUHzeiAyxBo" target="_blank">355</a><!--Saturday Projectsâ„¢ .com | Chicken Drumstick Dinner - Saturday Projectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/ZjjR5NMt330" target="_blank">354</a><!--Saturday Projectsâ„¢ .com | Spaghetti With Meat Sauce - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/0hmHajdWCWw" target="_blank">353</a><!--Saturday Projectsâ„¢ .com | Carrot Cake - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/XvtP7LHQfyc" target="_blank">352</a><!--Saturday Projectsâ„¢ .com | Flour Tortillas - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/jx48p76r10o" target="_blank">351</a><!--Saturday Projectsâ„¢ .com | Get Well Soup - Saturday Projectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/M9D0pSqQqz0" target="_blank">350</a><!--Saturday Projectsâ„¢ .com | DIY Bokeh Wall-->
+<a href="https://youtu.be/ACW8UVDJy_Y" target="_blank">349</a><!--Saturday Projectsâ„¢ .com | Frozen Salmon - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/Sh9SFNIoX_8" target="_blank">348</a><!--Saturday Projectsâ„¢ .com | White Board Pen Trick-->
+<a href="https://youtu.be/sBpcaXoSsVk" target="_blank">347</a><!--Saturday Projectsâ„¢ .com | Grilled Ham and Cheese with Guac - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/fo5MYRhH6KU" target="_blank">346</a><!--Saturday Projectsâ„¢ .com | The Best Way To Paint Around Recessed Lighting-->
+<a href="https://youtu.be/mGMzCMMjI2Q" target="_blank">345</a><!--Saturday Projectsâ„¢ .com | Man Vs Van 4 Radiator Removal And Harmonic Balancer Inspection-->
+<a href="https://youtu.be/s9ZeJ_SyZGE" target="_blank">344</a><!--Saturday Projectsâ„¢ .com | Man vs Van 3 Air Filter Box Removal-->
+<a href="https://youtu.be/vvfQcjfSq8g" target="_blank">343</a><!--Saturday Projectsâ„¢ .com | Man vs Van - 2 Battery removal-->
+<a href="https://youtu.be/6XtRNv_rNLk" target="_blank">342</a><!--Saturday Projectsâ„¢ .com | Peppermint Ice Cream - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/rks276vuITg" target="_blank">341</a><!--Saturday Projectsâ„¢ .com | Krups Hand Mixer - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/yhHPzUCvGXM" target="_blank">340</a><!--Saturday Projectsâ„¢ .com | Man vs Van - 1-->
+<a href="https://youtu.be/Bw-zdFoxyvU" target="_blank">339</a><!--Saturday Projectsâ„¢ .com | Harbor Freight Wheel Dollies - Unboxing, Warranty, Warnings-->
+<a href="https://youtu.be/lXrb4kc8ACM" target="_blank">338</a><!--Saturday Projectsâ„¢ .com | Chocolate Chip Brownies - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/DPBhoSFlJO4" target="_blank">337</a><!--Saturday Projectsâ„¢ .com | Apple Crisp - SaturdayProjectsâ„¢ - FOOD VIDEOS-->
+<a href="https://youtu.be/22S4JUKC_Zk" target="_blank">336</a><!--Saturday Projectsâ„¢ .com | Workbench Teardown-->
+<a href="https://youtu.be/LXCcdLpwID0" target="_blank">335</a><!--Saturday Projectsâ„¢ .com | Guitar String Hack-->
+<a href="https://youtu.be/MWnJbHLeido" target="_blank">334</a><!--Saturday Projectsâ„¢ .com | Spider In The Sink-->
+<a href="https://youtu.be/QVds6peYCOg" target="_blank">333</a><!--Saturday Projectsâ„¢ .com | How to Stop Car Battery Cable Corrosion - see desc.-->
+<a href="https://youtu.be/b2rWGhplfeA" target="_blank">332</a><!--Saturday Projectsâ„¢ .com | Crown Mold Sanding Dust Catcher-->
+<a href="https://youtu.be/IYDox-2PPns" target="_blank">331</a><!--Saturday Projectsâ„¢ .com | Canon Printer Error 5100 - How to fix - mx310 disassembly - see desc.-->
+<a href="https://youtu.be/NbLYM1LzI-E" target="_blank">330</a><!--Saturday Projectsâ„¢ .com | The Best Way To Remove Latex Paint From WIndow Frames - see description-->
+<a href="https://youtu.be/TiVntrRZ7qY" target="_blank">329</a><!--Saturday Projectsâ„¢ .com | One Of The Best Cheapest Ways To Keep Jobsite Remodel Dust To A Minimum-->
+<a href="https://youtu.be/8FRjCXCk2Rg" target="_blank">328</a><!--Saturday Projectsâ„¢ .com | Carpet to Tile Doorway Transition - Tip in desc.-->
+<a href="https://youtu.be/7IaSAvilr6I" target="_blank">327</a><!--Saturday Projectsâ„¢ .com | Kobalt Lowes Folding Carpet Knife - unboxing, warranty, directions-->
+<a href="https://youtu.be/4hH1NuLXWgc" target="_blank">326</a><!--Saturday Projectsâ„¢ .com | The Best Way To Keep Paint Off The Carpet When Painting Baseboards-->
+<a href="https://youtu.be/1p2WHJq9XC4" target="_blank">325</a><!--Saturday Projectsâ„¢ .com | The Last and Best Watermelon of 2017  sweet and delicious-->
+<a href="https://youtu.be/QkqYqUCCd9M" target="_blank">324</a><!--Saturday Projectsâ„¢ .com | I Know It's Gross - but I'm curious - maggots in the vinegar mash-->
+<a href="https://youtu.be/aC-zY8iGriQ" target="_blank">323</a><!--Saturday Projectsâ„¢ .com | Grain Master Whisper Mill - 10 Years Old and still running strong-->
+<a href="https://youtu.be/uEHFWMEADjo" target="_blank">322</a><!--Saturday Projectsâ„¢ .com | DIY Plum Vinegar - Day 29 Bottling - and maggots-->
+<a href="https://youtu.be/mSNejqEGX6k" target="_blank">321</a><!--Saturday Projectsâ„¢ .com | Watermelon Vinegar - DIY Experiment Day 1 - How to make vinegar.-->
+<a href="https://youtu.be/EVuuN3IAM9k" target="_blank">320</a><!--Saturday Projectsâ„¢ .com | Quick Fix DIY Furniture Couch Sofa Frame with Screws-->
+<a href="https://youtu.be/o7Ee-4fLH4w" target="_blank">319</a><!--Saturday Projectsâ„¢ .com | Supplies Suprise - plumbing, sanding, paint prep.-->
+<a href="https://youtu.be/35fvYZ7qeTY" target="_blank">318</a><!--Saturday Projectsâ„¢ .com | Match Knockdown Texture Around Doorway-->
+<a href="https://youtu.be/qb2TTomMlNE" target="_blank">317</a><!--Saturday Projectsâ„¢ .com | Organic Chicken Sandwich-->
+<a href="https://youtu.be/aFDQ41FwopE" target="_blank">316</a><!--Saturday Projectsâ„¢ .com | Changing Out Light Switches and Outlet Receptacles-->
+<a href="https://youtu.be/GJtO4tdhOM0" target="_blank">315</a><!--Saturday Projectsâ„¢ .com | Old vs. New Outlet Receptacle - Which is made better?-->
+<a href="https://youtu.be/rcGiRewnyCQ" target="_blank">314</a><!--Saturday Projectsâ„¢ .com | Canteloupe Vinegar - Day 20 - mother, test pH. Smells canteloupie.-->
+<a href="https://youtu.be/yvygjOE1oe8" target="_blank">313</a><!--Saturday Projectsâ„¢ .com | The Best Organic Weed Killer Vinegar kitchen scraps and the mother-->
+<a href="https://youtu.be/1Xw2kN7yDSo" target="_blank">312</a><!--Saturday Projectsâ„¢ .com | Kitchenaid brushes from Amazon were crap, but fixable. See description.-->
+<a href="https://youtu.be/2TNN5Ht-WTY" target="_blank">311</a><!--Saturday Projectsâ„¢ .com | Zen Garden Fresh Best Homemade Tomato Sauce From Fresh Heirloom Organic-->
+<a href="https://youtu.be/Ue85CQ63lb8" target="_blank">310</a><!--Saturday Projectsâ„¢ .com | Amazon Basics DSLR Remote Guide - Gel Pens - Guitar Cable-->
+<a href="https://youtu.be/vx5Eh7HUSuE" target="_blank">309</a><!--Saturday Projectsâ„¢ .com | Lowes Closet Organizer Install - How Long Does It Take?-->
+<a href="https://youtu.be/UGuqF1Ym3a0" target="_blank">308</a><!--Saturday Projectsâ„¢ .com | Lowes Wood Closet Organizer Kit unboxing inspection directions-->
+<a href="https://youtu.be/bSqNYogsTvM" target="_blank">307</a><!--Saturday Projectsâ„¢ .com | Best Way To Peel Garlic Cloves - Shake them in a metal pan. It works!-->
+<a href="https://youtu.be/TKmpNFbj4hM" target="_blank">306</a><!--Saturday Projectsâ„¢ .com | Pocket Door Brushed Nickel Locking Handle Unboxing and Directions-->
+<a href="https://youtu.be/g_J8D7NBk1Y" target="_blank">305</a><!--Saturday Projectsâ„¢ .com | Plum Vinegar - Day 1 How to make your own vinegar.-->
+<a href="https://youtu.be/tZDoWzlzP58" target="_blank">304</a><!--Saturday Projectsâ„¢ .com | The Best Way To Store Extra Garlic Cloves-->
+<a href="https://youtu.be/-k1gQo4kCJE" target="_blank">303</a><!--Saturday Projectsâ„¢ .com | Canteloupe Vinegar Recipe - Day 2-->
+<a href="https://youtu.be/k2GznOsGsGk" target="_blank">302</a><!--Saturday Projectsâ„¢ .com | First Canteloupe, Is It Ripe?-->
+<a href="https://youtu.be/aqfoqZbRcfs" target="_blank">301</a><!--Saturday Projectsâ„¢ .com | Canteloupe Vinegar Recipe - Day 1-->
+<a href="https://youtu.be/mKDgzocYuVg" target="_blank"><b>300</b></a><!--Saturday Projectsâ„¢ .com | Garden Bounty - Is this watermelon ripe?-->
+<a href="https://youtu.be/SXKi0pVgvEI" target="_blank">299</a><!--Saturday Projectsâ„¢ .com | 2x4 Decor - Standing Desk Drafting Table-->
+<a href="https://youtu.be/iXqyiyDoJ3s" target="_blank">298</a><!--Saturday Projectsâ„¢ .com | The Ultimate DIY Exercise Device made from 2x4's-->
+<a href="https://youtu.be/tNcHtcxzolc" target="_blank">297</a><!--Saturday Projectsâ„¢ .com | 2x4 Decor - Shelf Removal From The Music Nook-->
+<a href="https://youtu.be/SMDeQUDj9nI" target="_blank">296</a><!--Saturday Projectsâ„¢ .com | Changing Magic Mouse Batteries To Energizer Rechargables.-->
+<a href="https://youtu.be/VTPUuMSowrs" target="_blank">295</a><!--Saturday Projectsâ„¢ .com | Changing Wall Clock Battery With "used" battery-->
+<a href="https://youtu.be/KGD-GlxzjeY" target="_blank">294</a><!--Saturday Projectsâ„¢ .com | INDUSTRIAL STRENGTH - organic fly management system.-->
+<a href="https://youtu.be/pR544iejWQg" target="_blank">293</a><!--Saturday Projectsâ„¢ .com | Organic fruit fly management system.-->
+<a href="https://youtu.be/srV--K0_akY" target="_blank">292</a><!--Saturday Projectsâ„¢ .com | Saturday Projectsâ„¢-->
+<a href="https://youtu.be/-QwcBbIaXws" target="_blank">291</a><!--Saturday Projectsâ„¢ .com | Make Your Own Cheap Slug Trap No Beer-->
+<a href="https://youtu.be/MYHeRHy2f4A" target="_blank">290</a><!--Saturday Projectsâ„¢ .com | Honeybee Hive Finally Waking Up-->
+<a href="https://youtu.be/zXZaMvobv1o" target="_blank">289</a><!--Saturday Projectsâ„¢ .com | Sharpened up a few new garden tools.-->
+<a href="https://youtu.be/dAHuU4dWye0" target="_blank">288</a><!--Saturday Projectsâ„¢ .com | Debunking The Myth That You Catch More Flies With Honey...VINEGAR WINS-->
+<a href="https://youtu.be/X8enP2z6KCg" target="_blank">287</a><!--Saturday Projectsâ„¢ .com | The Best Way To Test Soil PH.-->
+<a href="https://youtu.be/4GYpUrb_dCg" target="_blank">286</a><!--Saturday Projectsâ„¢ .com | The Best Way To Test Soil PH - NOT - see description-->
+<a href="https://youtu.be/Lx6E1Se7pd0" target="_blank">285</a><!--Saturday Projectsâ„¢ .com | Mosser Lee SoilMaster Soil Testing Kit-->
+<a href="https://youtu.be/ZIARWDcMfto" target="_blank">284</a><!--Saturday Projectsâ„¢ .com | Organic Heirloom Tomato Seedling Update-->
+<a href="https://youtu.be/RvOmtoHjg9w" target="_blank">283</a><!--Saturday Projectsâ„¢ .com | Thoughts on work gloves.-->
+<a href="https://youtu.be/-366ye79nns" target="_blank">282</a><!--Saturday Projectsâ„¢ .com | Paper towel seed starting experiment with black krim, jalapeno bell pepper-->
+<a href="https://youtu.be/hMtFBr_R3qg" target="_blank">281</a><!--Saturday Projectsâ„¢ .com | Philips BDP2501 Blu-ray player unboxing and manual.-->
+<a href="https://youtu.be/4ZJviVF6q_c" target="_blank">280</a><!--Saturday Projectsâ„¢ .com | Ryobi 9 inch benchtop bandsaw- unboxing, assembly, manual-->
+<a href="https://youtu.be/ylU0D7EVpmI" target="_blank">279</a><!--Saturday Projectsâ„¢ .com | Bananas on the verge? Don't waste them, freeze them!-->
+<a href="https://youtu.be/1R-gYOJ_WnQ" target="_blank">278</a><!--Saturday Projectsâ„¢ .com | Freezing raw mushrooms and shallot mix.-->
+<a href="https://youtu.be/vsSaB2_hUF0" target="_blank">277</a><!--Saturday Projectsâ„¢ .com | Central Machinery 8 inch bench drill press UNBOXING from Harbor Freight-->
+<a href="https://youtu.be/LYLhoYnGnDw" target="_blank">276</a><!--Saturday Projectsâ„¢ .com | Stream Beautification Project - Transplant some ornamental grass-->
+<a href="https://youtu.be/gV4stsDrIz0" target="_blank">275</a><!--Saturday Projectsâ„¢ .com | Landscape to Garden - Starting an Ozark Beauty strawberry patch-->
+<a href="https://youtu.be/P0T3PECCS0c" target="_blank">274</a><!--Saturday Projectsâ„¢ .com | Landscape - Starting a Raspberry patch with a Brandywine raspberry start.-->
+<a href="https://youtu.be/hVBzNpnCL-g" target="_blank">273</a><!--Saturday Projectsâ„¢ .com | Drillmaster 80pc Rotary Tool - Unboxing and manual Harbor Freight 63235-->
+<a href="https://youtu.be/JQtK5-C0uNI" target="_blank">272</a><!--Saturday Projectsâ„¢ .com | Converting another landscape area to garden space - Day 1-->
+<a href="https://youtu.be/9Gio5vnOYAE" target="_blank">271</a><!--Saturday Projectsâ„¢ .com | Ozark Beauty Strawberry Starts - update-->
+<a href="https://youtu.be/7ktnSiRL5jU" target="_blank">270</a><!--Saturday Projectsâ„¢ .com | Towel rack repair, again.-->
+<a href="https://youtu.be/WLUI2qEkbfw" target="_blank">269</a><!--Saturday Projectsâ„¢ .com | THE BEST WAY TO CLEAN WATER JUGS with ORGANIC products - IT WORKS!-->
+<a href="https://youtu.be/2__EuhY9oeI" target="_blank">268</a><!--Saturday Projectsâ„¢ .com | TOMATO SEEDLINGS IN EGGSHELLS - First transplant at day 35-->
+<a href="https://youtu.be/W0BBV6DJLi0" target="_blank">267</a><!--Saturday Projectsâ„¢ .com | TOMATO SEEDLINGS IN EGGSHELLS - Day 35 update.-->
+<a href="https://youtu.be/2Fp-4wTeJF4" target="_blank">266</a><!--Saturday Projectsâ„¢ .com | Starting Ozark Beauty strawberries in cups.-->
+<a href="https://youtu.be/pDmx-YZeEDM" target="_blank">265</a><!--Saturday Projectsâ„¢ .com | Composting Worm Bin Update- after winter, and what the heck are tho-->
+<a href="https://youtu.be/ew4Z_kpWVVA" target="_blank">264</a><!--Saturday Projectsâ„¢ .com | LANDSCAPE TO GARDEN - HELLO FREE WOOD CHIPS BACK TO EDEN-->
+<a href="https://youtu.be/rbqGdFbVRQE" target="_blank">263</a><!--Saturday Projectsâ„¢ .com | TOMATO SEEDLINGS IN EGGSHELLS - Day 12 update-->
+<a href="https://youtu.be/qnh_yG0okwE" target="_blank">262</a><!--Saturday Projectsâ„¢ .com | THE BEST WAY TO REMOVE ADHESIVE RESIDUE FROM YOUR VAN OR CAR-->
+<a href="https://youtu.be/WXCdvqXcz68" target="_blank">261</a><!--Saturday Projectsâ„¢ .com | ADHESIVE REMOVER FOR AUTOMOTIVE STICKERS THAT ACTUALLY WORKS - CAUTION-->
+<a href="https://youtu.be/CWzGcr0ESj0" target="_blank">260</a><!--Saturday Projectsâ„¢ .com | Kreg Pocket Hole Jig unboxing and instruction sheet-->
+<a href="https://youtu.be/HcHOtIejwRA" target="_blank">259</a><!--Saturday Projectsâ„¢ .com | Converting landscape to vegetable garden - pea gravel removed,-->
+<a href="https://youtu.be/3ID74joa5cU" target="_blank">258</a><!--Saturday Projectsâ„¢ .com | Landscape to garden - a cherry tree dilemma-->
+<a href="https://youtu.be/RgO8hcfjrRk" target="_blank">257</a><!--Saturday Projectsâ„¢ .com | Landscape fabric is the dumbest thing ever!-->
+<a href="https://youtu.be/aMo5Uyj9r9M" target="_blank">256</a><!--Saturday Projectsâ„¢ .com | Converting landscape to vegetable garden - using a leaf blower for fabric-->
+<a href="https://youtu.be/HLkXx7Pn7J0" target="_blank">255</a><!--Saturday Projectsâ„¢ .com | What we do with the neighbor's leaves - mulch them!-->
+<a href="https://youtu.be/A0iFjxH3U_k" target="_blank">254</a><!--Saturday Projectsâ„¢ .com | Stream beautification late winter update.-->
+<a href="https://youtu.be/rkU1fuSWaN0" target="_blank">253</a><!--Saturday Projectsâ„¢ .com | Starting a cornucopia of organic heirloom tomato seeds indoorsin eggshells-->
+<a href="https://youtu.be/rkww2-DOfcI" target="_blank">252</a><!--Saturday Projectsâ„¢ .com | Indoor narcissus paperwhite bulb kit-->
+<a href="https://youtu.be/V6Kwo2jtX4w" target="_blank">251</a><!--Saturday Projectsâ„¢ .com | Germinating frozen organic blueberry seeds, an experiment.-->
+<a href="https://youtu.be/Zk0Sh9On4no" target="_blank">250</a><!--Saturday Projectsâ„¢ .com | Harvesting blueberry seeds from a handfull of organic frozen blueberries.-->
+<a href="https://youtu.be/JIooZpVBYcM" target="_blank">249</a><!--Saturday Projectsâ„¢ .com | How many seeds are there in a blueberry?-->
+<a href="https://youtu.be/q_1q5XTGZh0" target="_blank">248</a><!--Saturday Projectsâ„¢ .com | YOU CAN'T KILL THIS SNAKE PLANT-->
+<a href="https://youtu.be/Haa6vE4sZW0" target="_blank">247</a><!--Saturday Projectsâ„¢ .com | HOUSEPLANT RESCUE-->
+<a href="https://youtu.be/w2IIPvIdk6M" target="_blank">246</a><!--Saturday Projectsâ„¢ .com | THIS IS DISGUSTING - WORST CHORE EVER-->
+<a href="https://youtu.be/ToLDLQFeoYs" target="_blank">245</a><!--Saturday Projectsâ„¢ .com | BOSCH 2.5 Amp 5 inch Variable-speed Random Orbit Sander unboxing ROS20VSC-->
+<a href="https://youtu.be/NwfqSr6qtsI" target="_blank">244</a><!--Saturday Projectsâ„¢ .com | BOSCH Router bit set unboxing RBS004-->
+<a href="https://youtu.be/MFh-okXMvyc" target="_blank">243</a><!--Saturday Projectsâ„¢ .com | BOSCH 2.25 HP Fixed based 1617EVS Router unboxing and manual.-->
+<a href="https://youtu.be/2JtHA9NzGBQ" target="_blank">242</a><!--Saturday Projectsâ„¢ .com | Crown mold measure method for accuracy.-->
+<a href="https://youtu.be/KfWF7187N2c" target="_blank">241</a><!--Saturday Projectsâ„¢ .com | Crown mold placement jig / guide diy.-->
+<a href="https://youtu.be/JSoDsWfEJiU" target="_blank">240</a><!--Saturday Projectsâ„¢ .com | Crown molding hanger diy jobsight trick-->
+<a href="https://youtu.be/OoWm9cJ5gAc" target="_blank">239</a><!--Saturday Projectsâ„¢ .com | Harbor Freight 18 gauge brad nailer unboxing and safety manual-->
+<a href="https://youtu.be/zhwT1LSORro" target="_blank">238</a><!--Saturday Projectsâ„¢ .com | Replace broken hose and fittings on campbell hausfeld mini compressor.-->
+<a href="https://youtu.be/LGCaWFmmFyM" target="_blank">237</a><!--Saturday Projectsâ„¢ .com | Mixing up about a month's worth of worm juice for the indoor plants.-->
+<a href="https://youtu.be/r7NyNqnqmaA" target="_blank">236</a><!--Saturday Projectsâ„¢ .com | I do not recommend this type of applicator for sealing tile.-->
+<a href="https://youtu.be/fkPu-vkGVAs" target="_blank">235</a><!--Saturday Projectsâ„¢ .com | Storing unused grout and color matched caulking-->
+<a href="https://youtu.be/JRG1_QvtQPY" target="_blank">234</a><!--Saturday Projectsâ„¢ .com | Unclogging caulk tube.-->
+<a href="https://youtu.be/hkQh3QcpxhY" target="_blank">233</a><!--Saturday Projectsâ„¢ .com | Clean as you go?-->
+<a href="https://youtu.be/TMCbzLUmgFo" target="_blank">232</a><!--Saturday Projectsâ„¢ .com | Replacing battery on Honda Civic key fob.-->
+<a href="https://youtu.be/S0pvnRB86gc" target="_blank">231</a><!--Saturday Projectsâ„¢ .com | Unwrapping and acclimating some new millwork crown molding-->
+<a href="https://youtu.be/L3znqxOS3uE" target="_blank">230</a><!--Saturday Projectsâ„¢ .com | The best way to patch and match sheetrock texture with diy texture sponge.-->
+<a href="https://youtu.be/jhmyZ9Vdblg" target="_blank">229</a><!--Saturday Projectsâ„¢ .com | The BEST WAY to patch knockdown sheetrock texture-->
+<a href="https://youtu.be/Q2gwx3nc2q4" target="_blank">228</a><!--Saturday Projectsâ„¢ .com | No tape buildup sheetrock patch. Just use sheetrock adhesive.-->
+<a href="https://youtu.be/R6cucBDCes0" target="_blank">227</a><!--Saturday Projectsâ„¢ .com | How to pick the best caulking gun for the money. This is the best one..-->
+<a href="https://youtu.be/utCWsX0ogog" target="_blank">226</a><!--Saturday Projectsâ„¢ .com | How to keep your partially used caulk tubes from drying out.-->
+<a href="https://youtu.be/op_T-DkU0gg" target="_blank">225</a><!--Saturday Projectsâ„¢ .com | Mixing tile grout colors to get it just right.-->
+<a href="https://youtu.be/b-g-fN0f93E" target="_blank">224</a><!--Saturday Projectsâ„¢ .com | Worm juice houseplant test day 103-->
+<a href="https://youtu.be/JUwHp6xMz6M" target="_blank">223</a><!--Saturday Projectsâ„¢ .com | How to improve the lighting in your garage or shop with LEDs.-->
+<a href="https://youtu.be/-VCbKoQ2KX8" target="_blank">222</a><!--Saturday Projectsâ„¢ .com | Super cheap video recording setup for art videos.-->
+<a href="https://youtu.be/JoJ6_wQ049Y" target="_blank">221</a><!--Saturday Projectsâ„¢ .com | Worm juice houseplant test day 78-->
+<a href="https://youtu.be/7lFomCqmcgU" target="_blank">220</a><!--Saturday Projectsâ„¢ .com | Worm juice houseplant test day 65-->
+<a href="https://youtu.be/ZAdbhxKGqBM" target="_blank">219</a><!--Saturday Projectsâ„¢ .com | Worm juice house plant test day 89-->
+<a href="https://youtu.be/6VtjppuH5To" target="_blank">218</a><!--Saturday Projectsâ„¢ .com | GoPro HERO5 Black Snowboarding1-->
+<a href="https://youtu.be/fJMHlA5Jin8" target="_blank">217</a><!--Saturday Projectsâ„¢ .com | Testing GoPro HERO5 Black low light-->
+<a href="https://youtu.be/-bvQSxr7V6Q" target="_blank">216</a><!--Saturday Projectsâ„¢ .com | Winterizing sprinkler system-->
+<a href="https://youtu.be/QYfFFbtazls" target="_blank">215</a><!--Saturday Projectsâ„¢ .com | Houseplant worm juice test day 50 - ten to one ratio.-->
+<a href="https://youtu.be/88tMXjusFRs" target="_blank">214</a><!--Saturday Projectsâ„¢ .com | Using dishsoap to unclog drain.-->
+<a href="https://youtu.be/M9RaQgW7QXc" target="_blank">213</a><!--Saturday Projectsâ„¢ .com | Harbor freight 2.5 hp 21 gallon compressor UNBOXING-->
+<a href="https://youtu.be/59-xRw5kscY" target="_blank">212</a><!--Saturday Projectsâ„¢ .com | 511 impregnator sealer applicator thoughts for honed large marble tile-->
+<a href="https://youtu.be/RqI8SkQbVmw" target="_blank">211</a><!--Saturday Projectsâ„¢ .com | Worm juice houseplant test day 40 - 3rd dose ten to one ratio-->
+<a href="https://youtu.be/WNPDp1oCBIw" target="_blank">210</a><!--Saturday Projectsâ„¢ .com | Tile Proleveling System thoughts, tips and tricks in description-->
+<a href="https://youtu.be/N6L-nNgGSP0" target="_blank">209</a><!--Saturday Projectsâ„¢ .com | Worm juice houseplant test day 25 - 2nd dose ten to one ratio.-->
+<a href="https://youtu.be/iWmETaQmHaM" target="_blank">208</a><!--Saturday Projectsâ„¢ .com | The most comfortable set of DIY knee pads I've ever used!-->
+<a href="https://youtu.be/j9lePv9ObXI" target="_blank">207</a><!--Saturday Projectsâ„¢ .com | Will worm juice revive a houseplant?-->
+<a href="https://youtu.be/kbQuYYe8uw8" target="_blank">206</a><!--Saturday Projectsâ„¢ .com | How to naturally kill wasps and what didn't work.-->
+<a href="https://youtu.be/Y--AvPGtdDI" target="_blank">205</a><!--Saturday Projectsâ„¢ .com | First worm juice leachate harvest from 100 percent organic kitchen scraps.-->
+<a href="https://youtu.be/L3YL_EdSh-w" target="_blank">204</a><!--Saturday Projectsâ„¢ .com | Moving a big pile of wood chips without a wheelbarrow.-->
+<a href="https://youtu.be/65hd0pxvsR0" target="_blank">203</a><!--Saturday Projectsâ„¢ .com | Wasp Karma-->
+<a href="https://youtu.be/syFJVmWzPa0" target="_blank">202</a><!--Saturday Projectsâ„¢ .com | Shrubs cut back, one removed and comparison of pruned and not pruned.-->
+<a href="https://youtu.be/wWfj5e_YXQ8" target="_blank">201</a><!--Saturday Projectsâ„¢ .com | Trim cherry tree to protect roof.-->
+<a href="https://youtu.be/h5Wvcj9n9-g" target="_blank"><b>200</b></a><!--Saturday Projectsâ„¢ .com | Rock, string, rope, saw, branch. Right between the uprights.-->
+<a href="https://youtu.be/qnngWWep3YU" target="_blank">199</a><!--Saturday Projectsâ„¢ .com | DIY electric pole pruner with extention pole.-->
+<a href="https://youtu.be/wicQ3k0yzeM" target="_blank">198</a><!--Saturday Projectsâ„¢ .com | Update on front lawn reseeding with bee friendly clover.-->
+<a href="https://youtu.be/Kx1RN1b89Nw" target="_blank">197</a><!--Saturday Projectsâ„¢ .com | Sideyard cleanup for less spiders and fire prevention.-->
+<a href="https://youtu.be/Ji7WPXJkjsA" target="_blank">196</a><!--Saturday Projectsâ„¢ .com | Autel AL319 OBD II code reader unboxing-->
+<a href="https://youtu.be/c-VA56a9PfM" target="_blank">195</a><!--Saturday Projectsâ„¢ .com | Makita 4" angle grinder GA4030K unboxing-->
+<a href="https://youtu.be/1P6J0NEnKJU" target="_blank">194</a><!--Saturday Projectsâ„¢ .com | Removing auto label adhesive with wd-40, goo gone, and brake cleaner-->
+<a href="https://youtu.be/N_oPPnfDa-c" target="_blank">193</a><!--Saturday Projectsâ„¢ .com | Black and Decker 4.5 amp jigsaw unboxing-->
+<a href="https://youtu.be/c9zmoz2nwoM" target="_blank">192</a><!--Saturday Projectsâ„¢ .com | Taymac weatherproof gfci kit unboxing for exterior outlets-->
+<a href="https://youtu.be/B0_ZnrtYr44" target="_blank">191</a><!--Saturday Projectsâ„¢ .com | Harbor Freight 10" tile saw unboxing and assembly.-->
+<a href="https://youtu.be/OJP4Ec-iK-s" target="_blank">190</a><!--Saturday Projectsâ„¢ .com | Bosch GLL 1P Line and point laser unboxing.-->
+<a href="https://youtu.be/fHLrd8DE5Kg" target="_blank">189</a><!--Saturday Projectsâ„¢ .com | Something you have to do if you buy a used dryer-->
+<a href="https://youtu.be/vocGmZ8JGDs" target="_blank">188</a><!--Saturday Projectsâ„¢ .com | Estate dryer noise wont start diagnose.-->
+<a href="https://youtu.be/bwyVuVIpOK0" target="_blank">187</a><!--Saturday Projectsâ„¢ .com | Beautiful Saturday drive in the foothills.-->
+<a href="https://youtu.be/jJiXRqio7yo" target="_blank">186</a><!--Saturday Projectsâ„¢ .com | Mini worm farm update.-->
+<a href="https://youtu.be/G9goHteWSSM" target="_blank">185</a><!--Saturday Projectsâ„¢ .com | Worm composter stand with worm juice collector.-->
+<a href="https://youtu.be/DSi6gsDqczk" target="_blank">184</a><!--Saturday Projectsâ„¢ .com | A1 Auto Parts toyota exterior door handle unboxing - Saturday Projects-->
+<a href="https://youtu.be/9Rv4lrZCxig" target="_blank">183</a><!--Saturday Projectsâ„¢ .com | Installing new recessed medicine cabinets - Saturday Projects-->
+<a href="https://youtu.be/uoTAE0MpZLI" target="_blank">182</a><!--Saturday Projectsâ„¢ .com | Replacing exterior door handle on 1994 Toyota pickup.-->
+<a href="https://youtu.be/0gVKnOjR3gY" target="_blank">181</a><!--Saturday Projectsâ„¢ .com | PS4 Uncharted 4 limited edition unboxing and start up - Saturday Projects-->
+<a href="https://youtu.be/gy-yx8L-l74" target="_blank">180</a><!--Saturday Projectsâ„¢ .com | We forgot about this, will it revive? Whole wheat sour dough starter-->
+<a href="https://youtu.be/K1C7HIoBOOk" target="_blank">179</a><!--Saturday Projectsâ„¢ .com | Saving a frost damaged pink flowering cherry tree- Saturday Projects-->
+<a href="https://youtu.be/NDRAGpsFbgA" target="_blank">178</a><!--Saturday Projectsâ„¢ .com | Reseeding the front lawn with organic topping soil - Saturday Projects-->
+<a href="https://youtu.be/PaW_R0rNjXk" target="_blank">177</a><!--Saturday Projectsâ„¢ .com | Black and Decker trimmer blower 99 dollar combo unboxing-->
+<a href="https://youtu.be/r_l4bpE1AtM" target="_blank">176</a><!--Saturday Projectsâ„¢ .com | Lawnmower leaf mulching to build soil organic matter - Saturday Projects-->
+<a href="https://youtu.be/NbASjpVrkFA" target="_blank">175</a><!--Saturday Projectsâ„¢ .com | How to remove and sharpen lawn mower blade with belt sander-->
+<a href="https://youtu.be/Fh4MHayyP-M" target="_blank">174</a><!--Saturday Projectsâ„¢ .com | How to change battery and fuse in cheap multimeter. - Saturday Projects-->
+<a href="https://youtu.be/-zARYOu_e0s" target="_blank">173</a><!--Saturday Projectsâ„¢ .com | How to test a 9-volt battery with a cheap multimeter - Saturday Projects-->
+<a href="https://youtu.be/F0lfD29ZhF4" target="_blank">172</a><!--Saturday Projectsâ„¢ .com | How to replace cheap battery terminals with marine terminals-->
+<a href="https://youtu.be/q1qg0POQetA" target="_blank">171</a><!--Saturday Projectsâ„¢ .com | Starting seeds in egg cartons - Saturday Projects-->
+<a href="https://youtu.be/WaQifoBJgrg" target="_blank">170</a><!--Saturday Projectsâ„¢ .com | Food containers recycled into mini worm farms for composting food scraps-->
+<a href="https://youtu.be/9JMpgHE2ZS4" target="_blank">169</a><!--Saturday Projectsâ„¢ .com | How To Remove Oil Spots in on Driveway - Saturday Projects-->
+<a href="https://youtu.be/LnDKQQ5lDk8" target="_blank">168</a><!--Saturday Projectsâ„¢ .com | Toilet flapper repair - why bring parts to the store? - Saturday Projects-->
+<a href="https://youtu.be/-w8KBNpXf9o" target="_blank">167</a><!--Saturday Projectsâ„¢ .com | Milwaukee M18 1/2" and 3/8" cordless impact wrench package for sale-->
+<a href="https://youtu.be/jcZSXCSZ27I" target="_blank">166</a><!--Saturday Projectsâ„¢ .com | Replace worn outlets - plug slips out - with new outlets-->
+<a href="https://youtu.be/Y27awkRTAbU" target="_blank">165</a><!--Saturday Projectsâ„¢ .com | Replace old beige three-way switches with new white ones with ground.-->
+<a href="https://youtu.be/_ogvnn2-j-E" target="_blank">164</a><!--Saturday Projectsâ„¢ .com | Replace beige dimmer light switch with single pole white light switch.-->
+<a href="https://youtu.be/XkCXe59YcEg" target="_blank">163</a><!--Saturday Projectsâ„¢ .com | What to do with old unused phone wall jack outlets.-->
+<a href="https://youtu.be/tYCbI6Q5Evs" target="_blank">162</a><!--Saturday Projectsâ„¢ .com | 1984 VF500F Honda Interceptor 30 years later - Saturday Projects-->
+<a href="https://youtu.be/LO371D3-B5E" target="_blank">161</a><!--Saturday Projectsâ„¢ .com | Volvo 240 blower fan replacement - Saturday Projects-->
+<a href="https://youtu.be/wiJ3NZv-4m4" target="_blank">160</a><!--Saturday Projectsâ„¢ .com | Remove, rebuild, replace power steering pump seals on Isuzu Trooper-->
+<a href="https://youtu.be/3UTm8Gvex_k" target="_blank">159</a><!--Saturday Projectsâ„¢ .com | Replace refrigerator bulbs with Philips 25w Frost A15 appliance bulbs-->
+<a href="https://youtu.be/2iDbRln3FGA" target="_blank">158</a><!--Saturday Projectsâ„¢ .com | Replace Amana side by side freezer bulb. - Saturday Projects-->
+<a href="https://youtu.be/zyz3tezsW3s" target="_blank">157</a><!--Saturday Projectsâ„¢ .com | Microwave cooktop light how to fix bulb breaks off of base replacement-->
+<a href="https://youtu.be/k-0_ZLJCwrU" target="_blank">156</a><!--Saturday Projectsâ„¢ .com | Replace fluorescent light fixture with led bulb fixture-->
+<a href="https://youtu.be/KByHX4rwRTE" target="_blank">155</a><!--Saturday Projectsâ„¢ .com | Replace ballast on 4' fluorescent light fixture-->
+<a href="https://youtu.be/D4TjbfNfUfg" target="_blank">154</a><!--Saturday Projectsâ„¢ .com | Replacing Philips 26w PL-C energy saver bright white 3500k cfl bulbs-->
+<a href="https://youtu.be/36R4su85HnA" target="_blank">153</a><!--Saturday Projectsâ„¢ .com | Vacuum Tool Cart - Saturday Projects-->
+<a href="https://youtu.be/CUVDdvyEXok" target="_blank">152</a><!--Saturday Projectsâ„¢ .com | Stream beautification 3 - pile up rocks - Saturday Projects-->
+<a href="https://youtu.be/8Vo9LiauEv4" target="_blank">151</a><!--Saturday Projectsâ„¢ .com | Stream beautification project 2 - find rocks around property.-->
+<a href="https://youtu.be/E_yeK4NmfhY" target="_blank">150</a><!--Saturday Projectsâ„¢ .com | Stream beautification project 4 - first section rocks - Saturday Projects-->
+<a href="https://youtu.be/mlPm4EgDtT0" target="_blank">149</a><!--Saturday Projectsâ„¢ .com | Stream beautification project 1 - before. - Saturday Projects-->
+<a href="https://youtu.be/V2tFu6EZNog" target="_blank">148</a><!--Saturday Projectsâ„¢ .com | Stream beautification 5 - more sections and a wild bobcat-->
+<a href="https://youtu.be/5SVQxsBq1Wc" target="_blank">147</a><!--Saturday Projectsâ„¢ .com | How to clean clogged ink jet printer cartridge. - Saturday Projects-->
+<a href="https://youtu.be/yVQNRc0FLwU" target="_blank">146</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota tercel part out pull all bulbs - Saturday Projects-->
+<a href="https://youtu.be/x1QNnciKQMU" target="_blank">145</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota tercel rear left wiring harness - Saturday Projects-->
+<a href="https://youtu.be/jeAuoLsMDt8" target="_blank">144</a><!--Saturday Projectsâ„¢ .com | 1993 Toyota tercel hauled away. - Saturday Projects-->
+<a href="https://youtu.be/qZ9bVFl0U6E" target="_blank">143</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota tercel front right turn signal harness - Saturday Projects-->
+<a href="https://youtu.be/NqawKeAWU-o" target="_blank">142</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic spark plug replacement with platinum plugs-->
+<a href="https://youtu.be/zHzFl6M-6Yw" target="_blank">141</a><!--Saturday Projectsâ„¢ .com | Organic fall lawn repair with dial n spray and Alaska fish fertilizer 1-->
+<a href="https://youtu.be/zpN8JskNmJM" target="_blank">140</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota repair battery lead to fuse box fix clicking starter-->
+<a href="https://youtu.be/leR7ocKhVg0" target="_blank">139</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic spark plug replacement with Bosch platinum-->
+<a href="https://youtu.be/OlE7_CkfyuY" target="_blank">138</a><!--Saturday Projectsâ„¢ .com | Evertough engine block test - Saturday Projects-->
+<a href="https://youtu.be/la-oihIoLj8" target="_blank">137</a><!--Saturday Projectsâ„¢ .com | Harbor Freight radiator pressure test kit UNBOXING manual review-->
+<a href="https://youtu.be/gc1B9P1PL7M" target="_blank">136</a><!--Saturday Projectsâ„¢ .com | For sale1994 Toyota tercel alternator used - Saturday Projects-->
+<a href="https://youtu.be/PFWbOHwUC_w" target="_blank">135</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel air intake assembly used - Saturday Projects-->
+<a href="https://youtu.be/ZDjKHrjs1WQ" target="_blank">134</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel cylinder head used - Saturday Projects-->
+<a href="https://youtu.be/3VnXJb4rbZk" target="_blank">133</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel valve cover used - Saturday Projects-->
+<a href="https://youtu.be/cLrSl69c1Ew" target="_blank">132</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel starter used - Saturday Projects-->
+<a href="https://youtu.be/_-YghSY3rOw" target="_blank">131</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel manual transmission used - Saturday Projects-->
+<a href="https://youtu.be/62xpucT0vWU" target="_blank">130</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel glove  box cover lid used - Saturday Projects-->
+<a href="https://youtu.be/VrUpJUFGvCs" target="_blank">129</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel left front turn park signal side light used-->
+<a href="https://youtu.be/mb_GUZ6HCwU" target="_blank">128</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel used front grill - Saturday Projects-->
+<a href="https://youtu.be/DzJ7bqCfrRg" target="_blank">127</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel used cylinder head - Saturday Projects-->
+<a href="https://youtu.be/bdgrAZGJwCM" target="_blank">126</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel rear right tail light used - Saturday Projects-->
+<a href="https://youtu.be/b0-vszK3Y-M" target="_blank">125</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel rear left tail light used - Saturday Projects-->
+<a href="https://youtu.be/CtnH78R0YM0" target="_blank">124</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel right headlight assembly used-->
+<a href="https://youtu.be/3zBN3g_rfSs" target="_blank">123</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel glove box latch used - Saturday Projects-->
+<a href="https://youtu.be/nH3cEEGQ-3s" target="_blank">122</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel left headlight assembly used-->
+<a href="https://youtu.be/dwPzhQEzvLw" target="_blank">121</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel sun visors used - Saturday Projects-->
+<a href="https://youtu.be/JMmWgaV--ug" target="_blank">120</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel used intake manifold - Saturday Projects-->
+<a href="https://youtu.be/bMV6Epi4HIs" target="_blank">119</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel right front park turn signal side light used-->
+<a href="https://youtu.be/MLl8dHKuBqY" target="_blank">118</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel used exhaust manifold and shields-->
+<a href="https://youtu.be/2F6nztc0wtM" target="_blank">117</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel used throttle body - Saturday Projects-->
+<a href="https://youtu.be/0NfmdPECTY0" target="_blank">116</a><!--Saturday Projectsâ„¢ .com | For sale 1994 Toyota tercel used fuel injector set and fuel rail-->
+<a href="https://youtu.be/r9wjO5gcO14" target="_blank">115</a><!--Saturday Projectsâ„¢ .com | Toyota Lexus scion head bolt wrench set from Amazon close up inspection-->
+<a href="https://youtu.be/YIE0ExlKgmU" target="_blank">114</a><!--Saturday Projectsâ„¢ .com | 1984 Honda nighthawk s cb 700 sc carburetors removal part 1-->
+<a href="https://youtu.be/ZvVkuRz3Di4" target="_blank">113</a><!--Saturday Projectsâ„¢ .com | Easy Sheetrock repair for loose towel bar and curtain rod.-->
+<a href="https://youtu.be/QFuCEO4gqRw" target="_blank">112</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 SOLD -Saturday Projects-->
+<a href="https://youtu.be/1-Usnx3r-V0" target="_blank">111</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR 250 cylinder head thermostat location -Saturday Projects-->
+<a href="https://youtu.be/SeJAho1IIjg" target="_blank">110</a><!--Saturday Projectsâ„¢ .com | How to repair fix elastic shoe laces with needle and thread-->
+<a href="https://youtu.be/cC9FbThJy1M" target="_blank">109</a><!--Saturday Projectsâ„¢ .com | Kawasaki KLR250 making new petcock bolt gasket washers with penblade-->
+<a href="https://youtu.be/-rMokIlhh2I" target="_blank">108</a><!--Saturday Projectsâ„¢ .com | DIY cheap stand up desk for under $30 dollars. Inexpensive stand up desk-->
+<a href="https://youtu.be/RMX4ZtUxQSM" target="_blank">107</a><!--Saturday Projectsâ„¢ .com | Kawasaki KLR 250 eBay petcock 2nd try - tried to leak, nope-->
+<a href="https://youtu.be/Om5iXvS-0bI" target="_blank">106</a><!--Saturday Projectsâ„¢ .com | Kawasaki KLR 250 petcock clean and rebuild. No leaks works perfect-->
+<a href="https://youtu.be/K7Ku41eSOgQ" target="_blank">105</a><!--Saturday Projectsâ„¢ .com | Lasko 20" white box fan 399582 -Saturday Projects-->
+<a href="https://youtu.be/Lj_UrGtHX0c" target="_blank">104</a><!--Saturday Projectsâ„¢ .com | Lasko 16" pedestal fan gray 123803 -Saturday Projects-->
+<a href="https://youtu.be/RAThsfL4vko" target="_blank">103</a><!--Saturday Projectsâ„¢ .com | Motorcycle tank rust removal recondition Part 2 drain vinegar, neutralize-->
+<a href="https://youtu.be/EbPzo97bckE" target="_blank">102</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX bad thermostat wreaking havoc -Saturday Projects-->
+<a href="https://youtu.be/uFtV1Sn2sDc" target="_blank">101</a><!--Saturday Projectsâ„¢ .com | Silicone plugs and mat from Amazon -Saturday Projects-->
+<a href="https://youtu.be/8VMbuwbtKlc" target="_blank"><b>100</b></a><!--Saturday Projectsâ„¢ .com | Motorcycle tank rust remove tank and fill with apple cider vinegar-->
+<a href="https://youtu.be/2vCqBZxb4M8" target="_blank">099</a><!--Saturday Projectsâ„¢ .com | Outdoor business card holder unboxing -Saturday Projects-->
+<a href="https://youtu.be/VIauFddZMdQ" target="_blank">098</a><!--Saturday Projectsâ„¢ .com | K&L Carburetor cleaner Kit Unboxing -Saturday Projects-->
+<a href="https://youtu.be/dmWBvq-0J_c" target="_blank">097</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 aftermarket petcock from eBay -Saturday Projects-->
+<a href="https://youtu.be/aAzFWSJ8awY" target="_blank">096</a><!--Saturday Projectsâ„¢ .com | Kawasaki KLR250 -Stead Engineering brassplunger to replace part 16012-->
+<a href="https://youtu.be/m4uRIzL951M" target="_blank">095</a><!--Saturday Projectsâ„¢ .com | Cleaning an electrostatic reusable furnace filter -Saturday Projects-->
+<a href="https://youtu.be/VsbENyI4ejo" target="_blank">094</a><!--Saturday Projectsâ„¢ .com | Mio ALPHA 2 Heart Rate Monitor Sports Watch Unboxing -Saturday Projects-->
+<a href="https://youtu.be/bVJRwo06Fj4" target="_blank">093</a><!--Saturday Projectsâ„¢ .com | Timex womens 1440 sport watch battery replacement-->
+<a href="https://youtu.be/Eok4-9Bkl7E" target="_blank">092</a><!--Saturday Projectsâ„¢ .com | Timex ladies ironman watch battery replacement wr100m -Saturday Projects-->
+<a href="https://youtu.be/u9u1OZLkTNQ" target="_blank">091</a><!--Saturday Projectsâ„¢ .com | Partzilla.com motorcycle Honda Kawasaki next day delivery unboxing-->
+<a href="https://youtu.be/J-6tGZls-Sc" target="_blank">090</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel part out alternator removal -Saturday Projects-->
+<a href="https://youtu.be/9YGqdHbMOQg" target="_blank">089</a><!--Saturday Projectsâ„¢ .com | 3M Virtua CCS safety protective eyewear with foam gasket unboxing-->
+<a href="https://youtu.be/lVYz1zKGVHs" target="_blank">088</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel - remove headlight assemblies -Saturday Projects-->
+<a href="https://youtu.be/vksBRKxlq18" target="_blank">087</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel - remove glove compartment latch -Saturday Projects-->
+<a href="https://youtu.be/QpOc3fwJ-3w" target="_blank">086</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel - headlight flange and turn signal light removal-->
+<a href="https://youtu.be/jENYZUcyrrE" target="_blank">085</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel - removesun visor clips broke learn from our mistake-->
+<a href="https://youtu.be/JN1yO6dRaZw" target="_blank">084</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR 250 - Replace Phillips bolts with stainless cap bolts-->
+<a href="https://youtu.be/2ER6-7RcJeU" target="_blank">083</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR 250 - repair carburetor vacuum diaphram - power loss-->
+<a href="https://youtu.be/u5YODLaoZdI" target="_blank">082</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR 250 - test radiator fan - Saturday Projects-->
+<a href="https://youtu.be/F5Icf-lBVxQ" target="_blank">081</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel - Remove left tail light. - Saturday Projects-->
+<a href="https://youtu.be/xGH8gg8kzxA" target="_blank">080</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel - Remove right rear tail light - Saturday Projects-->
+<a href="https://youtu.be/ZzFe7IRt47A" target="_blank">079</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX - Repair, reattach, re-glue car door moldings, trim-->
+<a href="https://youtu.be/8Aal3yXB6T4" target="_blank">078</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 motorcycle carburetor reassembly rebuild-->
+<a href="https://youtu.be/w76FQg_KDXg" target="_blank">077</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 choke cable and first start after carburetor rebuild!-->
+<a href="https://youtu.be/mrj7-B6vuec" target="_blank">076</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 motorcycle carburetor disassembly and soak Pine-Sol-->
+<a href="https://youtu.be/ipupuqjClak" target="_blank">075</a><!--Saturday Projectsâ„¢ .com | Estate dryer won't start bypass thermal fuse at own risk and blow out vent-->
+<a href="https://youtu.be/uoXKi6bkjkQ" target="_blank">074</a><!--Saturday Projectsâ„¢ .com | 1992 Toyota Tercel rough idle change coolant temperature sensor.-->
+<a href="https://youtu.be/bXrtXXKxHCc" target="_blank">073</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 carburetor removal - Saturday Projects-->
+<a href="https://youtu.be/1rJr0arxcxI" target="_blank">072</a><!--Saturday Projectsâ„¢ .com | 1992 KLR250 Kawasaki repair fuel tank cap, replace washers nylon washers-->
+<a href="https://youtu.be/kUhJOsktFLI" target="_blank">071</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 replace fuel line filter - Saturday Projects-->
+<a href="https://youtu.be/MgKgotWcKGM" target="_blank">070</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 petcock removal fix rebuild repair install-->
+<a href="https://youtu.be/gm8FVMDPSzg" target="_blank">069</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 change oil and filter - Saturday Projects-->
+<a href="https://youtu.be/w0l2qnGXQUU" target="_blank">068</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 spark plug removal tool - Saturday Projects-->
+<a href="https://youtu.be/Md_qkHSeOkI" target="_blank">067</a><!--Saturday Projectsâ„¢ .com | batterymart.com motorcycle battery Unboxing and test - YTX4L-BS AGM-->
+<a href="https://youtu.be/p4o3xNLd59E" target="_blank">066</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 clean out rust from fuel tank with water-->
+<a href="https://youtu.be/Kv6uMyJWdGc" target="_blank">065</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 fuel tank removal - Saturday Projects-->
+<a href="https://youtu.be/miAG_hE5YTg" target="_blank">064</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 air filter removal and inspection - Saturday Projects-->
+<a href="https://youtu.be/6kKigs-LpOg" target="_blank">063</a><!--Saturday Projectsâ„¢ .com | Schwinn Breeze Vintage Bicycle Project - Saturday Projects-->
+<a href="https://youtu.be/Uq2VCRW_qhI" target="_blank">062</a><!--Saturday Projectsâ„¢ .com | 1994 ToyotaTercel Engine Rebuild 19 - Remove oil pan find metal pieces-->
+<a href="https://youtu.be/awruBxb-Zfg" target="_blank">061</a><!--Saturday Projectsâ„¢ .com | Harbor Freight 1000 lb. Engine Support Unboxing and review-->
+<a href="https://youtu.be/5zfKSd9_Q08" target="_blank">060</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 - Walk around inspection - Saturday Projects-->
+<a href="https://youtu.be/QvvgW9KkjlE" target="_blank">059</a><!--Saturday Projectsâ„¢ .com | 1992 Kawasaki KLR250 - Motorcycle battery recharge test - bad battery-->
+<a href="https://youtu.be/_NZ-r3dylEE" target="_blank">058</a><!--Saturday Projectsâ„¢ .com | 1000 lb. capacity motocross stand Harbor Freight item 67151 review-->
+<a href="https://youtu.be/PulBSMJNRb4" target="_blank">057</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 18 - Remove upper timing belt cover-->
+<a href="https://youtu.be/0UPqVljph1Y" target="_blank">056</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 17 - Remove exhaust manifold heat shield-->
+<a href="https://youtu.be/ijmcaics3uA" target="_blank">055</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 16 - Remove valve cover-->
+<a href="https://youtu.be/eAgace-xgrU" target="_blank">054</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 14 - Remove manual transmission housing-->
+<a href="https://youtu.be/XkqCFZlIGl4" target="_blank">053</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 15 - bolting to Harbor Freight stand-->
+<a href="https://youtu.be/s9rv-aevXAY" target="_blank">052</a><!--Saturday Projectsâ„¢ .com | Cheap do it yourself wrench and socket organizer - Saturday Projects-->
+<a href="https://youtu.be/iBLJv_xcVWw" target="_blank">051</a><!--Saturday Projectsâ„¢ .com | SoundBot SB220 Bluetooth headphones Unboxing and review-->
+<a href="https://youtu.be/irXZevLsyxE" target="_blank">050</a><!--Saturday Projectsâ„¢ .com | Norelco 5100 Trimmer Unboxing - Saturday Projects-->
+<a href="https://youtu.be/XNaIVsygMzc" target="_blank">049</a><!--Saturday Projectsâ„¢ .com | Harbor Freight 750 lb. Engine Stand Unboxing and assembly-->
+<a href="https://youtu.be/vMRkhUsqcYQ" target="_blank">048</a><!--Saturday Projectsâ„¢ .com | Harbor Freight 750 lb. Engine Stand Unboxing and assembly-->
+<a href="https://youtu.be/ct1JAq5Q29c" target="_blank">047</a><!--Saturday Projectsâ„¢ .com | Whalen Writing and Computer Desk Unboxing and Assembly - Saturday Projects-->
+<a href="https://youtu.be/AzFpAtl1PYU" target="_blank">046</a><!--Saturday Projectsâ„¢ .com | Using Innova 3300 Multimeter to test button cell battery-->
+<a href="https://youtu.be/Z3qf6yKCrWE" target="_blank">045</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 12 - Remove drive shafts.-->
+<a href="https://youtu.be/zwj1gDHCY4E" target="_blank">044</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 11 - Remove exhaust pipe.-->
+<a href="https://youtu.be/OcBUYzX_1sw" target="_blank">043</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 13 - Hoist engine out of compartment.-->
+<a href="https://youtu.be/9e_oVVhQp9o" target="_blank">042</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota 4x4 Pickup Stereo Deck and front Speaker install replace.-->
+<a href="https://youtu.be/Nu6DL3syIlo" target="_blank">041</a><!--Saturday Projectsâ„¢ .com | How To Fix A Punctured Tire - Fix A Flat Tire - Saturday Projects-->
+<a href="https://youtu.be/9FtRxLZAliw" target="_blank">040</a><!--Saturday Projectsâ„¢ .com | Composting Worm Bed Two Week Update - Saturday Projects-->
+<a href="https://youtu.be/cjqPE7gEPe0" target="_blank">039</a><!--Saturday Projectsâ„¢ .com | M18 Fuel 3/8" and 1/2" Cordless Impact Wrench Unboxing - Saturday Projects-->
+<a href="https://youtu.be/JZ8tO9ANUPs" target="_blank">038</a><!--Saturday Projectsâ„¢ .com | Starting a new worm bed for composting kitchen scraps with a spigot tea.-->
+<a href="https://youtu.be/3kfdTaPgGJM" target="_blank">037</a><!--Saturday Projectsâ„¢ .com | 1956 Tri-o-matic vintage tube record player refurbish. - Saturday Projects-->
+<a href="https://youtu.be/cNlLOLHrMa8" target="_blank">036</a><!--Saturday Projectsâ„¢ .com | 1992 Toyota Tercel Headlight Bulb Replacement. - Saturday Projects-->
+<a href="https://youtu.be/Z7tOBGgIYio" target="_blank">035</a><!--Saturday Projectsâ„¢ .com | Vintage record player repurposed into a cat nappery. - Saturday Projects-->
+<a href="https://youtu.be/B7E_bgX-lws" target="_blank">034</a><!--Saturday Projectsâ„¢ .com | 2002 Acura RSX Type S fix cloudy headlights. - Saturday Projects-->
+<a href="https://youtu.be/ODmrG1xRK-s" target="_blank">033</a><!--Saturday Projectsâ„¢ .com | Optoma HD66 projector disassembly diagnose dark blur, cleaning and repair.-->
+<a href="https://youtu.be/0TeOad6iPx8" target="_blank">032</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Transmission Rebuild 11 - Disconnect wire from clips.-->
+<a href="https://youtu.be/1Ro38CpvJ2A" target="_blank">031</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Transmission Rebuild 10 - Disconnect solenoids-->
+<a href="https://youtu.be/YBx_Qz1uhd0" target="_blank">030</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic Transmission Rebuild 6 - Disconnect trans ground,-->
+<a href="https://youtu.be/CYkRH7WFExk" target="_blank">029</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Transmission Rebuild 8 - Disconnect VSS connector-->
+<a href="https://youtu.be/0FXge-p3L6E" target="_blank">028</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Transmission Rebuild 3 - Remove battery and tray.-->
+<a href="https://youtu.be/Qt2RTHyTEQE" target="_blank">027</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Transmission Rebuild 9 - Remove ATF cooler hoses-->
+<a href="https://youtu.be/d9dr7oB6XXo" target="_blank">026</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Transmission Rebuild 5 - disconnect starter cables.-->
+<a href="https://youtu.be/oZwBFYoyDVQ" target="_blank">025</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Automatic Transmission Rebuild 4 - Remove air intake-->
+<a href="https://youtu.be/NIyJum0Dfdk" target="_blank">024</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Automatic Transmission Rebuild 2 Remove splash shield.-->
+<a href="https://youtu.be/dmI2_y39SZ4" target="_blank">023</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic Transmission Rebuild 7 - Disconnect shaft speed sensor-->
+<a href="https://youtu.be/GAvSPZ0UtrU" target="_blank">022</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Transmission Rebuild 1 - Drain  at fluid, remove tires-->
+<a href="https://youtu.be/XvTL8oO6ZAA" target="_blank">021</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Repair 7 - Change cabin air filters.-->
+<a href="https://youtu.be/vOEscrHYUHQ" target="_blank">020</a><!--Saturday Projectsâ„¢ .com | BEST way to clean dry erase board with rubbing alcohol. It Works!-->
+<a href="https://youtu.be/szKqtlN9a9k" target="_blank">019</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 5 - Remove engine under covers.-->
+<a href="https://youtu.be/Wyu3DjMU_Xo" target="_blank">018</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 6 - Remove radiator and trim piece.-->
+<a href="https://youtu.be/5--pjZbHknE" target="_blank">017</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 10 - Remove clutch slave cylinder.-->
+<a href="https://youtu.be/IzwYqIDH6pg" target="_blank">016</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 9 - Remove transaxle cables-->
+<a href="https://youtu.be/uoaN0UJVkmU" target="_blank">015</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 8 - Remove speedometer cable transaxle-->
+<a href="https://youtu.be/4qLyalXodos" target="_blank">014</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 7 - Remove accelerator cable, etc.-->
+<a href="https://youtu.be/QxIHKWEraCY" target="_blank">013</a><!--Saturday Projectsâ„¢ .com | How To Unclog A Bath Tub Drain Without Chemicals - Saturday Projectsâ„¢-->
+<a href="https://youtu.be/6apwgy8AC30" target="_blank">012</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Repair 6 - fix srs code 9-3 drivers side seatbelt-->
+<a href="https://youtu.be/BLzVXHwxSHc" target="_blank">011</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Repair - fix common oil leak, loose dipstick & gasket-->
+<a href="https://youtu.be/WG1vSIpNEEQ" target="_blank">010</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Repair 4 - no start no power - Saturday Projectsâ„¢-->
+<a href="https://youtu.be/EwzSvH0bS1Y" target="_blank">009</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Repair 3 - fix cloudy headlight with turtle wax-->
+<a href="https://youtu.be/E2c9h_uslYc" target="_blank">008</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX Repair 2 - fix cloudy headlights - Saturday Projectsâ„¢-->
+<a href="https://youtu.be/8FhiwqB_nr4" target="_blank">007</a><!--Saturday Projectsâ„¢ .com | 2002 Honda Civic EX 1 - first exterior wash - Saturday Projectsâ„¢-->
+<a href="https://youtu.be/fyikbNEVCgc" target="_blank">006</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 2 - remove battery - Saturday Projectsâ„¢-->
+<a href="https://youtu.be/jpnqDNLnAOk" target="_blank">005</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 3 - Remove air intake assembly-->
+<a href="https://youtu.be/Y0plhAMCqh4" target="_blank">004</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 4 - remove air filter housing-->
+<a href="https://youtu.be/rDeZDrfNOi4" target="_blank">003</a><!--Saturday Projectsâ„¢ .com | 1994 Toyota Tercel Engine Rebuild 1 - remove hood - Saturday Projectsâ„¢-->
+<a href="https://youtu.be/P7yapQ_wSsw" target="_blank">002</a><!--Saturday Projectsâ„¢ .com | Stick in a can DIY Lighting - Saturday Projectsâ„¢-->
+<a href="https://youtu.be/VvfvIquJJcQ" target="_blank">001</a><!--Saturday Projectsâ„¢ .com | How To Fix A Pitchfork-->
+<!-- * HEY DID I LOOK UP YOUR SKIRT? * <h2>CSS</h2>
+<p>My CSS is <a href="/pagespeed/inline-small-css.html">inlined</a>, like a boss. I do not need an external file for my CSS. My CSS is small and nimble. My CSS is less than 25 lines and I am still completely responsive and look amazing on any device. Even if I wanted to use more complex CSS I could as long as it was <a href="/pagespeed/optimize-css-delivery.html">delivered intelligently</a>.
+<h2>Images</h2>
+<p>My images are inlined into the HTML using the <a href="/tools/base64/">base64 image tool</a>, so there is no need for the browser to go looking for some image linked to as an external file.
+<h2>Javascript</h2>
+<p>I use no javascript, but I could if I wanted to, I would simply need to <a href="/pagespeed/defer-loading-javascript.html">defer it</a>.
+<h2>Gzip compression</h2>
+<p>I am not an idiot, my files take advantage of <a href="/pagespeed/enable-compression.html">Gzip compression</a>.
+<h2>Webhosting</h2>
+<p>I am not on a shared host, I am hosted on a VPS, my hard drives are SSD, and have no moving parts. I understand hosting is important and I am willing to pay 25 to 35 dollars a month to be awesome to my users. I use <a href="http://www.knownhost.com/affiliate/idevaffiliate.php?id=1136_0_3_1"  target="_blank" rel="nofollow">Knownhost SSD hosting</a>.
+-->
+
+<h3>Thanks for visiting our <i>superfast</i> SaturdayProjects&#8482;.com website!</h3>
+
+<p style="text-align:right;"><img src="" style="vertical-align:middle;"/> <a href="https://youtube.com/saturdayprojects"><small>Click here to subscribe to our YouTube Channel!</small></a></p>
+<hr>
+<p>&copy;2013-2020 - -  All rights reserved. - - <a href="https://youtube.com/saturdayprojects">Saturday Projects&trade;</a> Est. 2013</p>
+<sub>v.003 / 9.23.2020 / Single(1) .html doc / Character Count 113,381 / 0 external calls</sub>
+
+
+
+</div>
+
+
+
+</div>
+
+  
+</div>
+</div>
+</body>
+</html>
